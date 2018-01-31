@@ -42,7 +42,10 @@ class Desert extends BaseController
             //插入到all_desert表
             $desert = array(
                 'media_id' => $mediaId,
-                'status' => 0
+                'status' => 0,
+                'name' => $post['name'],
+                'introduction' => $post['introduction'],
+                'price' => $post['price']
             );
             $bannerRes = model('Desert')->insert($desert);
 

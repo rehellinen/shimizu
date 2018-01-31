@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\banner\add.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1517406240;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\shimizu\public/../application/admin\view\desert\edit.html";i:1517409446;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1517406240;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -80,18 +80,40 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">添加轮播图</h1>
+                <h1 class="page-header">编辑甜品</h1>
             </div>
         </div>
         <!-- /.row -->
         <div class="row">
             <form class="form-horizontal" id="submitForm" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="<?php echo $res['id']; ?>">
                 <div class="form-group">
                     <label class="col-sm-2 control-label">图片:</label>
                     <div class="col-sm-10">
                         <input id="file_upload"  type="file" multiple="true" >
-                        <img style="display:none" id="upload_org_code_img" src="" width="150" height="150">
+                        <img id="upload_org_code_img" src="<?php echo $url; ?>" width="150" height="150">
                         <input id="file_upload_image" name="url" type="hidden" multiple="true" value="">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="name" class="col-sm-2 control-label">名称：</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="name" id="name" value="<?php echo $res['name']; ?>">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="price" class="col-sm-2 control-label">价格：</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="price" id="price" value="<?php echo $res['price']; ?>">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="introduction" class="col-sm-2 control-label">介绍：</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="introduction" id="introduction" value="<?php echo $res['introduction']; ?>">
                     </div>
                 </div>
 
@@ -112,12 +134,13 @@
 
 <script>
     var URL = {
-        'submit_url' : '__PATH__?s=admin/banner/add',
-        'success_url' : '__PATH__?s=admin/banner/index',
+        'submit_url' : '__PATH__?s=admin/desert/edit',
+        'success_url' : '__PATH__?s=admin/desert/index',
         'swf_url' : '__STATIC__/vendor/uploadify/uploadify.swf',
         'image_url' : '__PATH__?s=admin/image/upload'
     }
 </script>
+
 <!-- jQuery -->
 <script src="__STATIC__/vendor/jquery/jquery.min.js"></script>
 <script src="__STATIC__/vendor/uploadify/jquery.uploadify.min.js"></script>

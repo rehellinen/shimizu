@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\banner\add.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1517406240;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\shimizu\public/../application/admin\view\banner\edit.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1517406240;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,6 +37,7 @@
 </head>
 
 <body>
+
 <link href="__STATIC__/vendor/uploadify/uploadify.css" rel="stylesheet">
 <div id="wrapper">
 
@@ -80,17 +81,18 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">添加轮播图</h1>
+                <h1 class="page-header">编辑轮播图</h1>
             </div>
         </div>
         <!-- /.row -->
         <div class="row">
             <form class="form-horizontal" id="submitForm" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="<?php echo $res['id']; ?>">
                 <div class="form-group">
                     <label class="col-sm-2 control-label">图片:</label>
                     <div class="col-sm-10">
                         <input id="file_upload"  type="file" multiple="true" >
-                        <img style="display:none" id="upload_org_code_img" src="" width="150" height="150">
+                        <img id="upload_org_code_img" src="<?php echo $url; ?>" width="150" height="150">
                         <input id="file_upload_image" name="url" type="hidden" multiple="true" value="">
                     </div>
                 </div>
@@ -112,7 +114,7 @@
 
 <script>
     var URL = {
-        'submit_url' : '__PATH__?s=admin/banner/add',
+        'submit_url' : '__PATH__?s=admin/banner/edit',
         'success_url' : '__PATH__?s=admin/banner/index',
         'swf_url' : '__STATIC__/vendor/uploadify/uploadify.swf',
         'image_url' : '__PATH__?s=admin/image/upload'
