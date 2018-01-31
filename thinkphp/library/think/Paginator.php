@@ -115,6 +115,11 @@ abstract class Paginator implements ArrayAccess, Countable, IteratorAggregate, J
         if ($page <= 0) {
             $page = 1;
         }
+        $module = Request::instance()->module();
+        $controller = Request::instance()->controller();
+        $action = Request::instance()->action();
+        $string = '/' . $module.'/' . $controller . '/' . $action;
+        $this->options['path'] .= $string;
 
         if (strpos($this->options['path'], '[PAGE]') === false) {
             $parameters = [$this->options['var_page'] => $page];
@@ -130,6 +135,7 @@ abstract class Paginator implements ArrayAccess, Countable, IteratorAggregate, J
         if (!empty($parameters)) {
             $url .= '?' . urldecode(http_build_query($parameters, null, '&'));
         }
+        
         return $url . $this->buildFragment();
     }
 
