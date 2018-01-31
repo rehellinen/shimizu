@@ -1,0 +1,77 @@
+{include file="public/header"}
+
+<link href="__STATIC__/vendor/uploadify/uploadify.css" rel="stylesheet">
+<div id="wrapper">
+
+    <!-- Navigation -->
+    {include file="public/nav"}
+
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">编辑视频</h1>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <form class="form-horizontal" id="submitForm" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="{$res.id}">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">图片:</label>
+                    <div class="col-sm-10">
+                        <input id="file_upload"  type="file" multiple="true" >
+                        <img id="upload_org_code_video" src="{$res.url}" width="150" height="150">
+                        <input id="file_upload_video" name="url" type="hidden" multiple="true" value="">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"></label>
+                    <div class="col-sm-10">
+                        <button type="button" class="btn btn-primary" id="submitButton">提交</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<script>
+    var URL = {
+        'submit_url' : '__PATH__?s=admin/media/edit',
+        'success_url' : '__PATH__?s=admin/media/index',
+        'swf_url' : '__STATIC__/vendor/uploadify/uploadify.swf',
+        'video_url' : '__PATH__?s=admin/image/video'
+    }
+</script>
+<!-- jQuery -->
+<script src="__STATIC__/vendor/jquery/jquery.min.js"></script>
+<script src="__STATIC__/vendor/uploadify/jquery.uploadify.min.js"></script>
+<script src="__STATIC__/vendor/admin/video.js"></script>
+
+
+<!-- Bootstrap Core JavaScript -->
+<script src="__STATIC__/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="__STATIC__/vendor/metisMenu/metisMenu.min.js"></script>
+
+<!-- Morris Charts JavaScript -->
+<script src="__STATIC__/vendor/raphael/raphael.min.js"></script>
+<script src="__STATIC__/vendor/morrisjs/morris.min.js"></script>
+<script src="__STATIC__/data/morris-data.js"></script>
+<script src="__STATIC__/vendor/admin/common.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="__STATIC__/dist/js/sb-admin-2.js"></script>
+<script src="__STATIC__/vendor/layer/dialog.js"></script>
+<script src="__STATIC__/vendor/layer/dialog/layer.js"></script>
+
+
+</body>
+
+</html>
