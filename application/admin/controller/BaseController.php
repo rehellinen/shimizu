@@ -10,12 +10,17 @@ namespace app\admin\controller;
 
 use think\Controller;
 use think\Request;
+use think\Session;
 
 class BaseController extends Controller
 {
     public function _initialize()
     {
-
+        // 判断用户是否登陆
+        $res = Session::get('loginUser');
+        if(!$res){
+            $this->redirect('admin/login/index');
+        }
 
         // 获取导航栏的菜单列表
         $menu = model('menu')->getNavMenu();

@@ -2439,3 +2439,3028 @@
   'css' => 'bootstrap.min.css.map',
 )
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.062730s][吞吐率：15.94req/s] [内存消耗：3,191.62kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.047994s][吞吐率：20.84req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.042935s][吞吐率：23.29req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.045227s][吞吐率：22.11req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041697s][吞吐率：23.98req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039031s][吞吐率：25.62req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040126s][吞吐率：24.92req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040330s][吞吐率：24.80req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040241s][吞吐率：24.85req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041909s][吞吐率：23.86req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040066s][吞吐率：24.96req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.038638s][吞吐率：25.88req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.038673s][吞吐率：25.86req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039601s][吞吐率：25.25req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041909s][吞吐率：23.86req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.042214s][吞吐率：23.69req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.043044s][吞吐率：23.23req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040190s][吞吐率：24.88req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039413s][吞吐率：25.37req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039490s][吞吐率：25.32req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039844s][吞吐率：25.10req/s] [内存消耗：3,195.67kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.066032s][吞吐率：15.14req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040708s][吞吐率：24.57req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039593s][吞吐率：25.26req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.047373s][吞吐率：21.11req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040871s][吞吐率：24.47req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.043128s][吞吐率：23.19req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039618s][吞吐率：25.24req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041731s][吞吐率：23.96req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040451s][吞吐率：24.72req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.044124s][吞吐率：22.66req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.042810s][吞吐率：23.36req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039037s][吞吐率：25.62req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.042864s][吞吐率：23.33req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.045209s][吞吐率：22.12req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039133s][吞吐率：25.55req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039416s][吞吐率：25.37req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.042943s][吞吐率：23.29req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.042992s][吞吐率：23.26req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.042128s][吞吐率：23.74req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.044074s][吞吐率：22.69req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041625s][吞吐率：24.02req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.047375s][吞吐率：21.11req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.045639s][吞吐率：21.91req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.043753s][吞吐率：22.86req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041618s][吞吐率：24.03req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041565s][吞吐率：24.06req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.043469s][吞吐率：23.00req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041404s][吞吐率：24.15req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.043623s][吞吐率：22.92req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041749s][吞吐率：23.95req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.042269s][吞吐率：23.66req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039664s][吞吐率：25.21req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.042845s][吞吐率：23.34req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040480s][吞吐率：24.70req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.046358s][吞吐率：21.57req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041187s][吞吐率：24.28req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.045990s][吞吐率：21.74req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.044886s][吞吐率：22.28req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.043909s][吞吐率：22.77req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.040988s][吞吐率：24.40req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041875s][吞吐率：23.88req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.039661s][吞吐率：25.21req/s] [内存消耗：3,195.26kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:41:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.056765s][吞吐率：17.62req/s] [内存消耗：3,005.10kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\shimizu\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:41:03+08:00 ] 127.0.0.1 127.0.0.1 GET /static/vendor/bootstrap/css/bootstrap.min.css.map
+[ info ] shimizu.cn/static/vendor/bootstrap/css/bootstrap.min.css.map [运行时间：0.036557s][吞吐率：27.35req/s] [内存消耗：2,569.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:41:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=admin/login/check
+[ info ] shimizu.cn/index.php?s=admin/login/check [运行时间：0.043184s][吞吐率：23.16req/s] [内存消耗：3,083.06kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://shimizu.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://shimizu.cn/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ C:\wamp64\www\shimizu\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:41:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.075479s][吞吐率：13.25req/s] [内存消耗：5,003.89kb] [文件加载：56]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004303s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.001635s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2018-01-31T21:41:13+08:00 ] 127.0.0.1 127.0.0.1 GET /static/vendor/bootstrap/css/bootstrap.min.css.map
+[ info ] shimizu.cn/static/vendor/bootstrap/css/bootstrap.min.css.map [运行时间：0.035263s][吞吐率：28.36req/s] [内存消耗：2,569.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:41:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.074098s][吞吐率：13.50req/s] [内存消耗：5,003.75kb] [文件加载：56]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011219s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2018-01-31T21:41:16+08:00 ] 127.0.0.1 127.0.0.1 GET /static/vendor/bootstrap/css/bootstrap.min.css.map
+[ info ] shimizu.cn/static/vendor/bootstrap/css/bootstrap.min.css.map [运行时间：0.034067s][吞吐率：29.35req/s] [内存消耗：2,569.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:41:41+08:00 ] 127.0.0.1 127.0.0.1 GET /static/vendor/bootstrap/css/bootstrap.min.css.map
+[ info ] shimizu.cn/static/vendor/bootstrap/css/bootstrap.min.css.map [运行时间：0.034972s][吞吐率：28.59req/s] [内存消耗：2,569.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:42:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.071233s][吞吐率：14.04req/s] [内存消耗：5,249.28kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003077s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2018-01-31T21:42:39+08:00 ] 127.0.0.1 127.0.0.1 GET /static/vendor/bootstrap/css/bootstrap.min.css.map
+[ info ] shimizu.cn/static/vendor/bootstrap/css/bootstrap.min.css.map [运行时间：0.035108s][吞吐率：28.48req/s] [内存消耗：2,569.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:42:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.070671s][吞吐率：14.15req/s] [内存消耗：5,249.38kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002552s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2018-01-31T21:42:53+08:00 ] 127.0.0.1 127.0.0.1 GET /static/vendor/bootstrap/css/bootstrap.min.css.map
+[ info ] shimizu.cn/static/vendor/bootstrap/css/bootstrap.min.css.map [运行时间：0.041955s][吞吐率：23.84req/s] [内存消耗：2,569.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:43:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.073632s][吞吐率：13.58req/s] [内存消耗：5,249.28kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011689s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2018-01-31T21:43:00+08:00 ] 127.0.0.1 127.0.0.1 GET /static/vendor/bootstrap/css/bootstrap.min.css.map
+[ info ] shimizu.cn/static/vendor/bootstrap/css/bootstrap.min.css.map [运行时间：0.037104s][吞吐率：26.95req/s] [内存消耗：2,569.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:43:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.064095s][吞吐率：15.60req/s] [内存消耗：5,248.47kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002631s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2018-01-31T21:43:14+08:00 ] 127.0.0.1 127.0.0.1 GET /static/vendor/bootstrap/css/bootstrap.min.css.map
+[ info ] shimizu.cn/static/vendor/bootstrap/css/bootstrap.min.css.map [运行时间：0.037172s][吞吐率：26.90req/s] [内存消耗：2,569.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:44:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.094750s][吞吐率：10.55req/s] [内存消耗：5,248.74kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011848s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2018-01-31T21:44:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/login/loginOut
+[ info ] shimizu.cn/index.php?s=admin/login/loginOut [运行时间：0.044924s][吞吐率：22.26req/s] [内存消耗：3,092.47kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'loginOut',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/index.php?s=admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:45:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.062283s][吞吐率：16.06req/s] [内存消耗：4,987.50kb] [文件加载：56]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001967s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2018-01-31T21:45:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.077406s][吞吐率：12.92req/s] [内存消耗：4,987.70kb] [文件加载：56]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011896s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000600s ]
+---------------------------------------------------------------
+[ 2018-01-31T21:45:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/login/loginOut
+[ info ] shimizu.cn/index.php?s=admin/login/loginOut [运行时间：0.040043s][吞吐率：24.97req/s] [内存消耗：3,164.03kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'loginOut',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/index.php?s=admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->loginOut[ C:\wamp64\www\shimizu\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:45:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.038614s][吞吐率：25.90req/s] [内存消耗：3,007.34kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/index.php?s=admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\shimizu\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:45:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin
+[ info ] shimizu.cn/index.php/admin [运行时间：0.044653s][吞吐率：22.39req/s] [内存消耗：3,186.84kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:45:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] shimizu.cn/index.php/admin/login/index.html [运行时间：0.041557s][吞吐率：24.06req/s] [内存消耗：3,006.78kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\shimizu\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:46:04+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=admin/login/check
+[ info ] shimizu.cn/index.php?s=admin/login/check [运行时间：0.041094s][吞吐率：24.33req/s] [内存消耗：3,085.04kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://shimizu.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://shimizu.cn/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ C:\wamp64\www\shimizu\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T21:46:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.070262s][吞吐率：14.23req/s] [内存消耗：4,987.84kb] [文件加载：56]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168; PHPSESSID=ql723qgr0nfo38c93bhe53gq55',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011682s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000515s ]

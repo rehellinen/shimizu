@@ -10,10 +10,11 @@ namespace app\admin\controller;
 
 
 use app\lib\validate\UserValidate;
+use think\Controller;
 use think\Request;
 use think\Session;
 
-class Login extends BaseController
+class Login extends Controller
 {
     public function index()
     {
@@ -44,5 +45,8 @@ class Login extends BaseController
         return show(1, '登陆成功');
     }
 
-
+    public function loginOut(){
+        Session::set('loginUser', '');
+        $this->redirect('admin/login/index');
+    }
 }
