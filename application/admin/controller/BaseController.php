@@ -15,6 +15,9 @@ class BaseController extends Controller
 {
     public function _initialize()
     {
+
+
+        // 获取导航栏的菜单列表
         $menu = model('menu')->getNavMenu();
         $this->assign('nav', $menu);
     }

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:68:"C:\wamp64\www\shimizu\public/../application/admin\view\menu\add.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\best\index.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -284,59 +284,43 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">添加菜单</h1>
+                <h1 class="page-header">推荐甜品管理</h1>
             </div>
         </div>
         <!-- /.row -->
         <div class="row">
-            <form class="form-horizontal" id="submitForm" method="post" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">名称：</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="name" id="name" placeholder="请填写菜单名称">
-                    </div>
+            <div class="col-lg-12">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th>排序</th>
+                                    <th>名称</th>
+                                    <th>状态</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php if(is_array($desert) || $desert instanceof \think\Collection || $desert instanceof \think\Paginator): $i = 0; $__LIST__ = $desert;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+                                <tr>
+                                    <td><input class="listorder" attr-id="<?php echo $vo['id']; ?>" type="text" size="1" value="<?php echo $vo['listorder']; ?>"/></td>
+                                    <td><?php echo $vo['name']; ?></td>
+                                    <td class="statusButton" attr-id="<?php echo $vo['id']; ?>" attr-status="<?php echo $vo['status']==1?2 : 1; ?>"
+                                        message="是否确定更改状态">
+                                        <?php echo getStatus($vo['status']); ?>
+                                    </td>
+                                    <td>
+                                        <span class="fa fa-edit editButton" attr-id="<?php echo $vo['id']; ?>"></span>
+                                        <span class="fa fa-times statusButton" attr-id="<?php echo $vo['id']; ?>" attr-status="-1" message="是否确定删除"></span>
+                                    </td>
+                                </tr>
+                                <?php endforeach; endif; else: echo "" ;endif; ?>
+                                </tbody>
+                            </table>
                 </div>
+                <!-- /.table-responsive -->
+            </div>
 
-                <div class="form-group">
-                    <label for="m" class="col-sm-2 control-label">模块：</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="m" id="m" placeholder="请填写模块">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="c" class="col-sm-2 control-label">控制器：</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="c" id="c" placeholder="请填写控制器">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="f" class="col-sm-2 control-label">方法：</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="f" id="f" placeholder="请填写方法">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">类型：</label>
-                    <div class="col-sm-10">
-                        <label class="radio-inline">
-                            <input type="radio" name="type" value="2" checked>前端导航
-                        </label>
-                        <label class="radio-inline">
-                            <input type="radio" name="type" value="1">后台菜单
-                        </label>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="col-sm-2 control-label"></label>
-                    <div class="col-sm-10">
-                        <button type="button" class="btn btn-primary" id="submitButton">提交</button>
-                    </div>
-                </div>
-            </form>
         </div>
 
     </div>
@@ -347,8 +331,13 @@
 
 <script>
     var URL = {
-        'submit_url' : '__PATH__?s=admin/menu/add',
-        'success_url' : '__PATH__?s=admin/menu/index'
+        'add_url' : '__PATH__?s=admin/best/add',
+        'edit_url' : '__PATH__?s=admin/best/edit',
+        'status_url' : '__PATH__?s=admin/best/status',
+        'success_url' : '__PATH__?s=admin/best/index',
+        'listorder_url' : '__PATH__?s=admin/best/listorder'
+
+
 
     }
 </script>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:68:"C:\wamp64\www\shimizu\public/../application/admin\view\menu\add.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:72:"C:\wamp64\www\shimizu\public/../application/admin\view\desert\index.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -284,61 +284,52 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">添加菜单</h1>
+                <h1 class="page-header">甜品管理</h1>
             </div>
         </div>
         <!-- /.row -->
         <div class="row">
-            <form class="form-horizontal" id="submitForm" method="post" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">名称：</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="name" id="name" placeholder="请填写菜单名称">
-                    </div>
-                </div>
+            <div class="col-lg-12">
+                <button style="margin-bottom: 10px" type="button" class="btn btn-primary" id="addButton">添加</button>
 
-                <div class="form-group">
-                    <label for="m" class="col-sm-2 control-label">模块：</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="m" id="m" placeholder="请填写模块">
+            </div>
+            <?php if(is_array($desert) || $desert instanceof \think\Collection || $desert instanceof \think\Paginator): $i = 0; $__LIST__ = $desert;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+            <div class="col-lg-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        甜品
                     </div>
-                </div>
+                    <div class="panel-body">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="row table-striped">
+                                名称：<?php echo $vo['name']; ?>
+                            </div>
+                            <hr />
+                            <div class="row table-striped">
+                                价格：<?php echo $vo['price']; ?>
+                            </div>
+                            <hr />
+                            <div class="row table-striped">
+                                <span class="statusButton" attr-id="<?php echo $vo['id']; ?>" attr-status="<?php echo $vo['status']==1?2 : 1; ?>"
+                                      message="是否确定更改状态">状态：<?php echo getStatus($vo['status']); ?></span>
+                            </div>
+                            <hr />
+                            <div class="row table-striped">
+                                操作：
+                                <span class="fa fa-edit editButton" attr-id="<?php echo $vo['id']; ?>"></span>
+                                <span class="fa fa-times statusButton" attr-id="<?php echo $vo['id']; ?>" attr-status="-1" message="是否确定删除"></span>
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <img src="<?php echo $vo['media_id']; ?>" class="img-responsive">
+                        </div>
 
-                <div class="form-group">
-                    <label for="c" class="col-sm-2 control-label">控制器：</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="c" id="c" placeholder="请填写控制器">
                     </div>
                 </div>
-
-                <div class="form-group">
-                    <label for="f" class="col-sm-2 control-label">方法：</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="f" id="f" placeholder="请填写方法">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">类型：</label>
-                    <div class="col-sm-10">
-                        <label class="radio-inline">
-                            <input type="radio" name="type" value="2" checked>前端导航
-                        </label>
-                        <label class="radio-inline">
-                            <input type="radio" name="type" value="1">后台菜单
-                        </label>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="col-sm-2 control-label"></label>
-                    <div class="col-sm-10">
-                        <button type="button" class="btn btn-primary" id="submitButton">提交</button>
-                    </div>
-                </div>
-            </form>
+            </div>
+            <?php endforeach; endif; else: echo "" ;endif; ?>
         </div>
-
     </div>
     <!-- /#page-wrapper -->
 
@@ -347,9 +338,11 @@
 
 <script>
     var URL = {
-        'submit_url' : '__PATH__?s=admin/menu/add',
-        'success_url' : '__PATH__?s=admin/menu/index'
-
+        'add_url' : '__PATH__?s=admin/desert/add',
+        'edit_url' : '__PATH__?s=admin/desert/edit',
+        'status_url' : '__PATH__?s=admin/desert/status',
+        'success_url' : '__PATH__?s=admin/desert/index',
+        'listorder_url' : '__PATH__?s=admin/desert/listorder'
     }
 </script>
 

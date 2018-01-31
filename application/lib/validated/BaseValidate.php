@@ -9,24 +9,29 @@
 
 namespace app\lib\validated;
 
-use think\Exception;
 use think\Validate;
 use think\Request;
 
 class BaseValidate extends Validate
 {
+    private $sceneName;
 
-    public function goCheck(){
-        $request = Request::instance();
-        $params = $request->param();
+    public function goCheck($scene){
+        $params = Request::instance()->param();
 
-        $result = $this->check($params);
+        $this->sceneName = $scene;
+        $result = $this->scene($scene)->check($params);
         if(!$result){
             $error = $this->error;
-            throw new Exception($error);
-        }
-        else{
+            return show(0, $error);
+        }else{
             return true;
         }
+    }
+
+    public function getDataByRule($data)
+    {
+        $newData = [];
+//        foreach ($this->rule)
     }
 }

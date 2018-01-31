@@ -29,4 +29,8 @@ class IDMustBePostiveInt extends BaseValidate
             return $field.'必须是正整数';
         }
     }
+
+    protected $scene = [
+
+    ];
 }

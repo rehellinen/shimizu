@@ -1,0 +1,37 @@
+{include file="public/header"}
+
+<div class="container">
+    <form id="submitForm" method="post" enctype="multipart/form-data" class="form-horizontal">
+        <div class="form-group">
+            <div class="col-md-4">
+                <h2>清水宇治后台登陆</h2>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="name" class="col-md-2 control-label">账号：</label>
+            <div class="col-md-5">
+                <input type="text" id="name" name="name" class="form-control" placeholder="请填写账号"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="col-md-2 control-label">密码：</label>
+            <div class="col-md-5">
+                <input id="password" name="password" class="form-control" placeholder="请填写密码" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-5">
+                <button id="submitButton" class="btn btn-primary" type="button">登陆</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    var URL = {
+        'submit_url' : '__PATH__?s=admin/login/check'
+    }
+</script>
+
+{include file="public/footer"}
