@@ -9,7 +9,7 @@
 namespace app\admin\controller;
 
 
-class Menu extends Base
+class Menu extends BaseController
 {
     public function index()
     {

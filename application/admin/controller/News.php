@@ -10,7 +10,7 @@ namespace app\admin\controller;
 
 use think\Request;
 
-class News extends Base
+class News extends BaseController
 {
     public function index()
     {

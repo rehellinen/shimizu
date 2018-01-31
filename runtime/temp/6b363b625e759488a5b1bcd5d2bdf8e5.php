@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:72:"C:\wamp64\www\shimizu\public/../application/admin\view\banner\index.html";i:1508243844;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1508053983;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1508082507;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1508127408;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:72:"C:\wamp64\www\shimizu\public/../application/admin\view\banner\index.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -297,7 +297,7 @@
             <div class="col-lg-6">
                 <div class="panel panel-success">
                     <div class="panel-heading">
-                        第<?php echo $vo['id']; ?>张
+                        轮播图
                     </div>
                     <div class="panel-body">
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -310,6 +310,12 @@
                                 <span class="statusButton" attr-id="<?php echo $vo['id']; ?>" attr-status="<?php echo $vo['status']==1?2 : 1; ?>"
                                       message="是否确定更改状态">状态：<?php echo getStatus($vo['status']); ?></span>
                             </div>
+                            <hr />
+                            <div class="row table-striped">
+                                操作：
+                                <span class="fa fa-edit editButton" attr-id="<?php echo $vo['id']; ?>"></span>
+                                <span class="fa fa-times statusButton" attr-id="<?php echo $vo['id']; ?>" attr-status="-1" message="是否确定删除"></span>
+                            </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <img src="<?php echo $vo['media_id']; ?>" class="img-responsive">
@@ -319,6 +325,10 @@
                 </div>
             </div>
             <?php endforeach; endif; else: echo "" ;endif; ?>
+
+        </div>
+        <div class="row">
+            <?php echo $page; ?>
         </div>
     </div>
     <!-- /#page-wrapper -->

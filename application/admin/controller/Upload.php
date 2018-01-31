@@ -11,7 +11,7 @@ namespace app\admin\controller;
 
 use think\Controller;
 
-class upload extends Base
+class Upload extends BaseController
 {
     public function upload()
     {

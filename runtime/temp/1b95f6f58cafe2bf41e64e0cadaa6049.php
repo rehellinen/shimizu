@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html";i:1508086116;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1508053983;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1508082507;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1508127408;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 

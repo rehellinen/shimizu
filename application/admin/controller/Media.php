@@ -9,7 +9,7 @@
 namespace app\admin\controller;
 
 
-class Media extends Base
+class Media extends BaseController
 {
     public function index()
     {

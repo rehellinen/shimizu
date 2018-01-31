@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\menu\index.html";i:1508082536;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1508053983;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1508082507;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1508127408;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\menu\index.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:70:"C:\wamp64\www\shimizu\public/../application/admin\view\public\nav.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -313,13 +313,16 @@
                                         <?php echo getStatus($vo['status']); ?>
                                     </td>
                                     <td>
-                                        <span class="fa fa-edit" attr-id="<?php echo $vo['id']; ?>" id="editButton"></span>
+                                        <span class="fa fa-edit editButton" attr-id="<?php echo $vo['id']; ?>"></span>
                                         <span class="fa fa-times statusButton" attr-id="<?php echo $vo['id']; ?>" attr-status="-1" message="是否确定删除"></span>
                                     </td>
                                 </tr>
                                 <?php endforeach; endif; else: echo "" ;endif; ?>
                                 </tbody>
                             </table>
+                </div>
+                <div class="row">
+                    <?php echo $menu->render(); ?>
                 </div>
                 <!-- /.table-responsive -->
             </div>

@@ -10,7 +10,7 @@ namespace app\admin\controller;
 
 use think\Request;
 
-class Desert extends Base
+class Desert extends BaseController
 {
     public function index()
     {

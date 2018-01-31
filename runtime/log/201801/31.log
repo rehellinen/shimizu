@@ -1,0 +1,207 @@
+---------------------------------------------------------------
+[ 2018-01-31T20:18:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] shimizu.cn/admin [运行时间：0.109041s][吞吐率：9.17req/s] [内存消耗：5,248.96kb] [文件加载：56]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013177s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.008506s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.001567s ]
+---------------------------------------------------------------
+[ 2018-01-31T20:18:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/index/index
+[ info ] shimizu.cn/index.php?s=admin/index/index [运行时间：0.069971s][吞吐率：14.29req/s] [内存消耗：4,984.02kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\shimizu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\index\index.html [ array (
+  0 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002541s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.001892s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[ 2018-01-31T20:18:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/video/index
+[ info ] shimizu.cn/index.php?s=admin/video/index [运行时间：0.050772s][吞吐率：19.70req/s] [内存消耗：2,582.92kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/index.php?s=admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T20:18:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/video/index
+[ info ] shimizu.cn/index.php?s=admin/video/index [运行时间：0.040440s][吞吐率：24.73req/s] [内存消耗：2,582.99kb] [文件加载：40]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/index.php?s=admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T20:18:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/banner/index
+[ info ] shimizu.cn/index.php?s=admin/banner/index [运行时间：0.103318s][吞吐率：9.68req/s] [内存消耗：5,630.74kb] [文件加载：61]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/index.php?s=admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Banner->index[ C:\wamp64\www\shimizu\application\admin\controller\Banner.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\banner\index.html [ array (
+  0 => 'nav',
+  1 => 'banner',
+  2 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011654s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.004626s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003305s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `banner` WHERE  `status` <> -1 LIMIT 1 [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` <> -1 ORDER BY listorder desc, id desc LIMIT 0,5 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `media` [ RunTime:0.004215s ]
+[ sql ] [ SQL ] SELECT * FROM `media` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT * FROM `media` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `media` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `media` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `media` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2018-01-31T20:18:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=admin/menu/index
+[ info ] shimizu.cn/index.php?s=admin/menu/index [运行时间：0.087352s][吞吐率：11.45req/s] [内存消耗：5,471.48kb] [文件加载：59]
+[ info ] [ LANG ] C:\wamp64\www\shimizu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'shimizu.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3831.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://shimizu.cn/index.php?s=admin/banner/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=3555079168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Menu->index[ C:\wamp64\www\shimizu\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] C:\wamp64\www\shimizu\public/../application/admin\view\menu\index.html [ array (
+  0 => 'nav',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011618s ] mysql:host=localhost;dbname=shimizu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `menu` [ RunTime:0.001665s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` = 1  AND `type` = 1 ORDER BY listorder desc, id desc [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `menu` WHERE  `status` <> -1 LIMIT 1 [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `menu` WHERE  `status` <> -1 ORDER BY listorder desc, id desc LIMIT 0,5 [ RunTime:0.000432s ]

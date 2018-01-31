@@ -11,7 +11,7 @@ namespace app\admin\controller;
 use think\Controller;
 use think\Request;
 
-class Base extends Controller
+class BaseController extends Controller
 {
     public function _initialize()
     {

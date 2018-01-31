@@ -11,7 +11,7 @@ namespace app\admin\controller;
 use think\Request;
 
 
-class Image extends Base
+class Image extends BaseController
 {
     public function upload()
     {

@@ -9,7 +9,7 @@
 namespace app\admin\controller;
 
 
-class Best extends Base
+class Best extends BaseController
 {
     public function index()
     {

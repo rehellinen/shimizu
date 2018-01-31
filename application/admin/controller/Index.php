@@ -7,7 +7,7 @@ namespace app\admin\controller;
  * Date: 2017/10/15
  * Time: 13:21
  */
-class Index extends Base
+class Index extends BaseController
 {
     public function index()
     {

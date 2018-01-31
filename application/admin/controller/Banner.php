@@ -11,7 +11,7 @@ namespace app\admin\controller;
 use think\Request;
 
 
-class Banner extends Base
+class Banner extends BaseController
 {
     public function index()
     {
