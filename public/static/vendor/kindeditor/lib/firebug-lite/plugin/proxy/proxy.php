@@ -47,7 +47,7 @@ die('{"contents":"ERROR: Firebug Lite Proxy plugin is not enabled."}');
 //     function call. This parameter and <JSONP requests> are disabled by
 //     default, see <Configuration Options> for more information.
 //   user_agent - This value will be sent to the remote URL request as the
-//     `User-Agent:` HTTP request header. If omitted, the browser user agent
+//     `UserValidate-Agent:` HTTP request header. If omitted, the browser user agent
 //     will be passed through.
 //   send_cookies - If send_cookies=1, all cookies will be forwarded through to
 //     the remote URL request.

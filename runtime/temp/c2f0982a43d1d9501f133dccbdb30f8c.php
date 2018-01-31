@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"C:\wamp64\www\shimizu\public/../application/admin\view\login\index.html";i:1517403206;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:71:"C:\wamp64\www\shimizu\public/../application/admin\view\login\index.html";i:1517405734;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\header.html";i:1516672792;s:73:"C:\wamp64\www\shimizu\public/../application/admin\view\public\footer.html";i:1516672792;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -68,7 +68,8 @@
 
 <script>
     var URL = {
-        'submit_url' : '__PATH__?s=admin/login/check'
+        'submit_url' : '__PATH__?s=admin/login/check',
+        'success_url' : '__PATH__?s=admin/index/index'
     }
 </script>
 

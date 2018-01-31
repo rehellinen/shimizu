@@ -7092,7 +7092,7 @@ return
 }if(!element){return
 }this.updateView(element)
 },updateOption:function(name,value){if(name=="showUserAgentCSS"||name=="expandShorthandProps"){this.refresh()
-}},getOptionsMenuItems:function(){var ret=[{label:"Show User Agent CSS",type:"checkbox",checked:Firebug.showUserAgentCSS,command:bindFixed(Firebug.togglePref,Firebug,"showUserAgentCSS")},{label:"Expand Shorthand Properties",type:"checkbox",checked:Firebug.expandShorthandProps,command:bindFixed(Firebug.togglePref,Firebug,"expandShorthandProps")}];
+}},getOptionsMenuItems:function(){var ret=[{label:"Show UserValidate Agent CSS",type:"checkbox",checked:Firebug.showUserAgentCSS,command:bindFixed(Firebug.togglePref,Firebug,"showUserAgentCSS")},{label:"Expand Shorthand Properties",type:"checkbox",checked:Firebug.expandShorthandProps,command:bindFixed(Firebug.togglePref,Firebug,"expandShorthandProps")}];
 if(domUtils&&this.selection){var state=safeGetContentState(this.selection);
 ret.push("-");
 ret.push({label:":active",type:"checkbox",checked:state&STATE_ACTIVE,command:bindFixed(this.updateContentState,this,STATE_ACTIVE,state&STATE_ACTIVE)});

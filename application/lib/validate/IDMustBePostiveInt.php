@@ -1,13 +1,13 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: fixright
+ * UserValidate: fixright
  * Date: 2017/10/17
  * Time: 18:35
  * E-mail: 1397153057@qq.com
  */
 
-namespace app\lib\validated;
+namespace app\lib\validate;
 
 
 

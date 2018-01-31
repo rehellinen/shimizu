@@ -9535,7 +9535,7 @@ var createChromeWindow = function(options)
 
         if (/access/i.test(msg))
         {
-            // Firebug Lite could not create a window for its Graphical User Interface due to
+            // Firebug Lite could not create a window for its Graphical UserValidate Interface due to
             // a access restriction. This happens in some pages, when loading via bookmarklet.
             // In such cases, the only way is to load the GUI in a "windowless mode".
 
@@ -26638,7 +26638,7 @@ CSSElementPanel.prototype = extend(Firebug.CSSStyleSheetPanel.prototype,
     getOptionsMenuItems: function()
     {
         var ret = [
-            {label: "Show User Agent CSS", type: "checkbox", checked: Firebug.showUserAgentCSS,
+            {label: "Show UserValidate Agent CSS", type: "checkbox", checked: Firebug.showUserAgentCSS,
                     command: bindFixed(Firebug.togglePref, Firebug, "showUserAgentCSS") },
             {label: "Expand Shorthand Properties", type: "checkbox", checked: Firebug.expandShorthandProps,
                     command: bindFixed(Firebug.togglePref, Firebug, "expandShorthandProps") }

@@ -1,13 +1,13 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: fixright
+ * UserValidate: fixright
  * Date: 2017/10/17
  * Time: 18:33
  * E-mail: 1397153057@qq.com
  */
 
-namespace app\lib\validated;
+namespace app\lib\validate;
 
 use think\Validate;
 use think\Request;
@@ -22,8 +22,7 @@ class BaseValidate extends Validate
         $this->sceneName = $scene;
         $result = $this->scene($scene)->check($params);
         if(!$result){
-            $error = $this->error;
-            return show(0, $error);
+            return $error = $this->error;
         }else{
             return true;
         }
@@ -32,6 +31,21 @@ class BaseValidate extends Validate
     public function getDataByRule($data)
     {
         $newData = [];
-//        foreach ($this->rule)
+        $checkedArray = $this->scene[$this->sceneName];
+        foreach ($checkedArray as $key => $value)
+        {
+            $newData[$value] = $data[$value];
+        }
+
+        return $newData;
+    }
+
+    protected function inNotEmpty($value, $rule='', $data='', $field='')
+    {
+        if (empty($value)) {
+            return false;
+        } else {
+            return true;
+        }
     }
 }
