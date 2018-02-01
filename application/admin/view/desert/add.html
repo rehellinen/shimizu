@@ -25,22 +25,22 @@
 
                 <div class="form-group">
                     <label for="name" class="col-sm-2 control-label">名称：</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-lg-6">
                         <input type="text" class="form-control" name="name" id="name" placeholder="请填写名称">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="price" class="col-sm-2 control-label">价格：</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-10 col-lg-6">
                         <input type="text" class="form-control" name="price" id="price" placeholder="请填写价格">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="introduction" class="col-sm-2 control-label">介绍：</label>
+                    <label for="editor_id" class="col-sm-2 control-label">介绍：</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="introduction" id="introduction" placeholder="请填写介绍">
+                        <textarea class="input js-editor" id="editor_id" name="introduction" rows="20"></textarea>
                     </div>
                 </div>
 
@@ -68,4 +68,16 @@
     }
 </script>
 
+
+<script charset="utf-8" src="__STATIC__/vendor/kindeditor/kindeditor-all-min.js"></script>
+<script charset="utf-8" src="__STATIC__/vendor/kindeditor/lang/zh-CN.js"></script>
+<script>
+    KindEditor.ready(function(K) {
+        window.editor = K.create('#editor_id', {
+            uploadJson : '__PATH__?s=admin/image/editor',
+            fieldName : 'imgFile',
+            afterBlur: function () { this.sync(); }
+        });
+    });
+</script>
 {include file="public/footer"}
