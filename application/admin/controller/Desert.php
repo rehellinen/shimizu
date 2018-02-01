@@ -95,4 +95,30 @@ class Desert extends BaseController
             ]);
         }
     }
+
+    public function push()
+    {
+        $post = Request::instance()->post();
+        $res = [];
+        $status = true;
+
+        foreach ($post as $key => $value)
+        {
+            $newArray['deserts_id'] = $value;
+            $res[$key] = model('Best')->insert($newArray);
+        }
+
+        foreach ($res as $key => $value)
+        {
+            if(!$value){
+                $status = false;
+            }
+        }
+
+        if($status){
+            return show(1, '推送成功');
+        }else{
+            return show(0, '推送失败');
+        }
+    }
 }

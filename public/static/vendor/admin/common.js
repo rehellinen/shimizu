@@ -1,7 +1,6 @@
 /**
  * Created by rehellinen on 2017/10/15.
  */
-
 $('#addButton').click(function () {
    location.href = URL.add_url;
 });
@@ -55,16 +54,3 @@ $('* .listorder').blur(function () {
         }
     },"JSON")
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
