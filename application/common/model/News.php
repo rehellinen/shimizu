@@ -18,4 +18,11 @@ class News extends Model
         $data['status'] = array('neq', -1);
         return $this->order('id desc')->where($data)->paginate(10);
     }
+
+    public function getNewsByID($id)
+    {
+        $data['status'] = array('neq', -1);
+        $data['id'] = $id;
+        return $this->find($data);
+    }
 }
