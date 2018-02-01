@@ -28,27 +28,11 @@
             <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
             <div class="collapse navbar-collapse navbar-responsive-collapse" data-toggle="collapse" data-target=".example">
                 <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="##">首页</a>
-                    </li>
+                    {volist name="nav" id="vo"}
                     <li>
-                        <a href="##">清宇资讯</a>
+                        <a href="__PATH__?s={$vo.m}/{$vo.c}/{$vo.f}">{$vo.name}</a>
                     </li>
-                    <li>
-                        <a href="##">近期活动</a>
-                    </li>
-                    <li>
-                        <a href="##">产品展示</a>
-                    </li>
-                    <li>
-                        <a href="##">加盟合作</a>
-                    </li>
-                    <li>
-                        <a href="##">门店展示</a>
-                    </li>
-                    <li>
-                        <a href="##">关于我们</a>
-                    </li>
+                    {/volist}
                 </ul>
             </div>
         </div>

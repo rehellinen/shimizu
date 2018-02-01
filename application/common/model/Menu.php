@@ -22,4 +22,11 @@ class Menu extends Model
         $data['type'] = 1;
         return $this->order('listorder desc, id desc')->where($data)->select();
     }
+
+    public function getIndexNavMenu()
+    {
+        $data['status'] = 1;
+        $data['type'] = 2;
+        return $this->order('listorder desc, id desc')->where($data)->select();
+    }
 }

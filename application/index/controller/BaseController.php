@@ -13,5 +13,9 @@ use think\Controller;
 
 class BaseController extends Controller
 {
-
+    public function _initialize()
+    {
+        $nav = model('menu')->getIndexNavMenu();
+        $this->assign('nav', $nav);
+    }
 }
