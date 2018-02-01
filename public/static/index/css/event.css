@@ -1,0 +1,46 @@
+.body{
+    padding-top: 35px!important;
+}
+/* 最新活动 */
+.recent{
+    padding-bottom: 10px;
+}
+.contentContainer{
+    margin-top: 40px;
+}
+.content{
+    font-size: 22px;
+    width: 100%;  
+    height: auto;  
+    word-wrap:break-word;  
+    word-break:break-all;  
+    overflow: hidden;
+}
+.time{
+    font-size: 18px;
+}
+
+/* 其他活动通知 */
+.moreEvent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.moreEventTitle{
+    width: 100%;  
+    height: auto;  
+    word-wrap:break-word;  
+    word-break:break-all;  
+    overflow: hidden;
+}
+/* 平板显示样式 768-1024 */
+@media (min-width: 768px) and (max-width:1024px) {
+    img{
+        display:block;
+        margin-right:auto;
+        margin-left:auto
+    }
+    h1,h2,h3,h4,p{
+        text-align: center;
+    }
+    
+}

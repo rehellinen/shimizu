@@ -1,0 +1,39 @@
+/* 门店信息上面的横条 */
+.storeList > div > p{
+    font-size: 30px;
+}
+.storeList{
+    margin-top: 30px;
+    padding-left: 10%;
+}
+
+/* 门店信息 */
+.store{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.storeName , .storeAddress , .storeTel{
+    font-size: 20px;
+}
+
+ /* 平板屏幕样式 768-1024*/
+ @media (min-width: 768px) and (max-width:1024px) {
+    .storeList{
+        margin-top: 10px;
+        padding-left: 5%;
+    }
+    img{
+        display:block;
+        margin-right:auto;
+        margin-left:auto
+    }
+}
+/* 小屏幕样式 400-768*/
+@media (min-width: 400px) and (max-width: 768px) {
+    .storeList{
+        margin-top: 10px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+ }
