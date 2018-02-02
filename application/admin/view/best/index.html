@@ -1,7 +1,6 @@
 {include file="public/header"}
 
 <div id="wrapper">
-
     <!-- Navigation -->
     {include file="public/nav"}
 
@@ -28,7 +27,7 @@
                                 {volist name="desert" id="vo"}
                                 <tr>
                                     <td><input class="listorder" attr-id="{$vo.id}" type="text" size="1" value="{$vo.listorder}"/></td>
-                                    <td>{$vo.name}</td>
+                                    <td>{$vo.deserts_id.name}</td>
                                     <td class="statusButton" attr-id="{$vo.id}" attr-status="{$vo.status == 1 ? 2 : 1}"
                                         message="是否确定更改状态">
                                         {$vo.status|getStatus}

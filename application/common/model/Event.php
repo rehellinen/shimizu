@@ -47,6 +47,6 @@ class Event extends Model
     public function getIndexAllEvents()
     {
         $data['status'] = 1;
-        return $this->order('id desc')->where($data)->select()->toArray();
+        return $this->order('id desc')->where($data)->paginate(10);
     }
 }

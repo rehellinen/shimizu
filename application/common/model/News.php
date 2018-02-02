@@ -46,6 +46,6 @@ class News extends Model
     public function getIndexNews()
     {
         $data['status'] = 1;
-        return $this->order('id desc')->where($data)->select()->toArray();
+        return $this->order('id desc')->where($data)->paginate(10);
     }
 }

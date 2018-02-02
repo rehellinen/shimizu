@@ -29,7 +29,13 @@ class Desert extends Model
 
     public function getIndexDesert()
     {
-        $data['status'] = array('neq', -1);
+        $data['status'] = 1;
         return $this->where($data)->order('id desc')->limit(10)->select()->toArray();
+    }
+
+    public function getProductDeserts()
+    {
+        $data['status'] = 1;
+        return $this->where($data)->order('id desc')->paginate();
     }
 }

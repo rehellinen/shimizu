@@ -30,85 +30,30 @@
     <!-- 产品展示 -->
     <div class="body col-md-12">
         <div class="col-md-12">
+            {volist name="bestDesert" id="big" offset="0" length="1"}
             <div class="bigPic col-md-5 col-sm-12 hidden-sm hidden-xs">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product1.png" />
+                <img class="img-responsive" src="{$big.deserts_id.media_id}" />
             </div>
+            {/volist}
             <div class="smPic col-md-7">
+                {volist name="bestDesert" id="best" offset="1" length="4"}
                 <div class="product col-md-6 col-sm-6">
-                    <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                    <p>产品中文名 日文名</p>
-                    <p>产品简介</p>
+                    <img class="img-responsive" src="{$best.deserts_id.media_id}" />
+                    <p>{$best.deserts_id.name}</p>
+                    <p>{$best.deserts_id.introduction}</p>
                 </div>
-                <div class="product col-md-6 col-sm-6">
-                    <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                    <p>产品中文名 日文名</p>
-                    <p>产品简介</p>
-                </div>
-                <div class="product col-md-6 col-sm-6">
-                    <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                    <p>产品中文名 日文名</p>
-                    <p>产品简介</p>
-                </div>
-                <div class="product col-md-6 col-sm-6">
-                    <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                    <p>产品中文名 日文名</p>
-                    <p>产品简介</p>
-                </div>
-
+                {/volist}
             </div>
         </div>
         <div class="product9 col-md-12">
+            {volist name="allDesert" id="all"}
             <div class="product col-md-4 col-sm-6">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                <p>产品中文名</p>
+                <img class="img-responsive" src="{$all.media_id}" />
+                <p>{$all.name}</p>
                 <p>日文名</p>
             </div>
-            <div class="product col-md-4 col-sm-6">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                <p>产品中文名</p>
-                <p>日文名</p>
-            </div>
-            <div class="product col-md-4 col-sm-6">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                <p>产品中文名</p>
-                <p>日文名</p>
-
-            </div>
-            <div class="product col-md-4 col-sm-6">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                <p>产品中文名</p>
-                <p>日文名</p>
-
-            </div>
-            <div class="product col-md-4 col-sm-6">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                <p>产品中文名</p>
-                <p>日文名</p>
-
-            </div>
-            <div class="product col-md-4 col-sm-6">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                <p>产品中文名</p>
-                <p>日文名</p>
-
-            </div>
-            <div class="product col-md-4 col-sm-6">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                <p>产品中文名</p>
-                <p>日文名</p>
-
-            </div>
-            <div class="product col-md-4 col-sm-6">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                <p>产品中文名</p>
-                <p>日文名</p>
-
-            </div>
-            <div class="product col-md-4 ">
-                <img class="img-responsive" src="__STATIC__/index/img/product/product2.png" />
-                <p>产品中文名</p>
-                <p>日文名</p>
-            </div>
+            {/volist}
+            {$allDesert->render()}
         </div>
 
 
