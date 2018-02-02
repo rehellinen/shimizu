@@ -76,10 +76,8 @@ class News extends BaseController
 
         }else{
             $id = $_GET['id'];
-            $result = model('news')->getNewsByID($id);
-
-            $media = model('Media')->get($result['media_id'])->toArray();
-            $url = $media['url'];
+            $result = model('news')->getNewsByID($id)->toArray();
+            $url = $result['media_id'];
             return $this->fetch('', [
                 'res' => $result,
                 'url' => $url

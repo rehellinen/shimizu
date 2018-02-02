@@ -8,17 +8,16 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">编辑新闻</h1>
+                <h1 class="page-header">添加活动</h1>
             </div>
         </div>
         <!-- /.row -->
         <div class="row">
             <form class="form-horizontal" id="submitForm" method="post" enctype="multipart/form-data">
-                <input type="hidden" name="id" value="{$res.id}">
                 <div class="form-group">
                     <label for="title" class="col-sm-2 control-label">标题：</label>
                     <div class="col-sm-10 col-lg-6">
-                        <input type="text" class="form-control" name="title" id="title" value="{$res.title}">
+                        <input type="text" class="form-control" name="title" id="title" placeholder="请填写标题">
                     </div>
                 </div>
 
@@ -26,20 +25,17 @@
                     <label class="col-sm-2 control-label">标题图:</label>
                     <div class="col-sm-10">
                         <input id="file_upload"  type="file" multiple="true" >
-                        <img src="{$url}" id="upload_org_code_img" src="" width="150" height="150">
-                        <input id="file_upload_image" name="url" type="hidden" multiple="true" value="{$url}">
+                        <img style="display:none" id="upload_org_code_img" src="" width="150" height="150">
+                        <input id="file_upload_image" name="url" type="hidden" multiple="true" value="">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="editor_id" class="col-sm-2 control-label">介绍：</label>
                     <div class="col-sm-10">
-                        <textarea class="input js-editor" id="editor_id" name="content" rows="20">{$res.content}</textarea>
+                        <textarea class="input js-editor" id="editor_id" name="content" rows="20"></textarea>
                     </div>
                 </div>
-
-
-
                 <div class="form-group">
                     <label class="col-sm-2 control-label"></label>
                     <div class="col-sm-10">
@@ -57,8 +53,8 @@
 
 <script>
     var URL = {
-        'submit_url' : '__PATH__?s=admin/news/edit',
-        'success_url' : '__PATH__?s=admin/news/index',
+        'submit_url' : '__PATH__?s=admin/event/add',
+        'success_url' : '__PATH__?s=admin/event/index',
         'swf_url' : '__STATIC__/vendor/uploadify/uploadify.swf',
         'image_url' : '__PATH__?s=admin/image/upload'
     }
@@ -75,5 +71,5 @@
         });
     });
 </script>
-
 {include file="public/footer"}
+

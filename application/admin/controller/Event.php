@@ -2,48 +2,46 @@
 /**
  * Created by PhpStorm.
  * UserValidate: rehellinen
- * Date: 2017/10/15
- * Time: 19:03
+ * Date: 2017/10/18
+ * Time: 0:40
  */
 
 namespace app\admin\controller;
 
 use think\Request;
-use app\common\model\Banner as BannerModel;
 
-
-class Banner extends BaseController
+class Event extends BaseController
 {
     public function index()
     {
-        $banner = (new BannerModel())->getBanner();
-        $page = $banner->render();
-
-
+        $events = (new \app\common\model\Event())->getEvents();
         return $this->fetch('', [
-            'banner' => $banner,
-            'page' => $page
+            'events' => $events
         ]);
     }
 
     public function add()
     {
         $post = Request::instance()->post();
+
         if($post){
             //插入到media表
             $mediaRes = model('Media')->insertMedia($post['url']);
             //根据url获取id
             $mediaId = model('Media')->findMedia($post['url']);
 
-            //插入到banner表
-            $banner = array(
+            //插入到news表
+            $event = array(
                 'media_id' => $mediaId,
-                'status' => 0
+                'content' => $post['content'],
+                'title' => $post['title'],
+                'status' => 0,
+                'create_time' => time()
             );
-            $bannerRes = model('Banner')->insert($banner);
+            $eventRes = model('event')->insert($event);
 
             //判断
-            if($mediaRes && $bannerRes){
+            if($mediaRes && $eventRes){
                 return show(1,'新增成功');
             }else{
                 return show(0,'新增失败');
@@ -57,17 +55,20 @@ class Banner extends BaseController
     {
         $post = Request::instance()->post();
         if($post){
-            if($post['url']) {
+            if($post['url']){
                 //插入到media表
                 $mediaRes = model('Media')->insertMedia($post['url']);
                 //根据url获取id
                 $mediaId = model('Media')->findMedia($post['url']);
+                $news['media_id'] = $mediaId;
             }
 
-                //更新banner表
-            $banner['media_id'] = $mediaId;
-            $result = model('Banner')->where('id='.$post['id'])->update($banner);
-            if($result || $mediaRes){
+            //更新all_news表
+            $news['title'] = $post['title'];
+            $news['content'] = $post['content'];
+
+            $result = model('news')->where('id='.$post['id'])->update($news);
+            if($result){
                 return show(1,'更新成功');
             }else{
                 return show(0,'更新失败');
@@ -75,7 +76,8 @@ class Banner extends BaseController
 
         }else{
             $id = $_GET['id'];
-            $result = model('Banner')->get($id)->toArray();
+            $result = model('event')->getEventByID($id)->toArray();
+
             $url = $result['media_id'];
             return $this->fetch('', [
                 'res' => $result,

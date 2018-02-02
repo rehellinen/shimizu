@@ -14,16 +14,7 @@ class Desert extends BaseController
 {
     public function index()
     {
-        $desertArr = model('desert')->getDesert()->toArray();
-        $desert = $desertArr['data'];
-        foreach ($desert as $key => $value){
-            foreach ($value as $key2 => $value2){
-                if($key2 === 'media_id'){
-                    $media = model('Media')->get($value2)->toArray();
-                    $desert[$key][$key2] = $media['url'];
-                }
-            }
-        }
+        $desert = (new \app\common\model\Desert())->getDesert();
 
         return $this->fetch('', [
             'desert' => $desert
@@ -85,10 +76,8 @@ class Desert extends BaseController
 
         }else{
             $id = $_GET['id'];
-            $result = model('Desert')->get($id)->toArray();
-
-            $media = model('Media')->get($result['media_id'])->toArray();
-            $url = $media['url'];
+            $result = model('Desert')->get($id);
+            $url = $result['media_id'];
             return $this->fetch('', [
                 'res' => $result,
                 'url' => $url

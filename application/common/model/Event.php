@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * UserValidate: rehellinen
  * Date: 2017/10/18
- * Time: 0:22
+ * Time: 16:44
  */
 
 namespace app\common\model;
@@ -11,25 +11,24 @@ namespace app\common\model;
 
 use think\Model;
 
-class Desert extends Model
+class Event extends Model
 {
-    protected $table = 'all_deserts';
-
     public function getMediaIdAttr($value)
     {
         $media = (new Media())->get($value);
         return $media['url'];
     }
 
-    public function getDesert()
+    public function getEvents()
     {
         $data['status'] = array('neq', -1);
-        return $this->where($data)->order('id desc')->paginate();
+        return $this->order('id desc')->where($data)->paginate(10);
     }
 
-    public function getIndexDesert()
+    public function getEventByID($id)
     {
         $data['status'] = array('neq', -1);
-        return $this->where($data)->order('id desc')->limit(10)->select()->toArray();
+        $data['id'] = $id;
+        return $this->find($data);
     }
 }

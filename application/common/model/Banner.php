@@ -26,7 +26,7 @@ class Banner extends Model
 
     public function getIndexBanner()
     {
-        $data['status'] = array('neq', -1);
-        return $this->where($data)->order('listorder desc, id desc')->select()->toArray();
+        $data['status'] = 1;
+        return $this->where($data)->order('listorder desc, id desc')->limit(5)->select()->toArray();
     }
 }
