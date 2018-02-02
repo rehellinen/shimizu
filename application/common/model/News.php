@@ -13,6 +13,12 @@ use think\Model;
 
 class News extends Model
 {
+    public function getMediaIdAttr($value)
+    {
+        $media = (new Media())->get($value);
+        return $media['url'];
+    }
+
     public function getNews()
     {
         $data['status'] = array('neq', -1);
@@ -24,5 +30,16 @@ class News extends Model
         $data['status'] = array('neq', -1);
         $data['id'] = $id;
         return $this->find($data);
+    }
+
+    public function getIndexBigEvent()
+    {
+
+    }
+
+    public function getIndexThreeNews()
+    {
+        $data['status'] = 1;
+        return $this->order('id desc')->where($data)->limit(3)->select()->toArray();
     }
 }

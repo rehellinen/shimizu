@@ -7,31 +7,16 @@
 <div>
     <div id="ad-carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#ad-carousel" data-slide-to="1"></li>
-            <li data-target="#ad-carousel" data-slide-to="2"></li>
-            <li data-target="#ad-carousel" data-slide-to="3"></li>
+            {volist name="banner" id="vo" key="k"}
+            <li data-target="#ad-carousel" data-slide-to="0" class="{$k == 1 ? 'active' : ''}"></li>
+            {/volist}
         </ol>
         <div class="carousel-inner">
-            <div class="item active">
-                <img class="img-responsive" src="__STATIC__/index/img/banner/sky.jpg" alt="1 slide">
-
-
+            {volist name="banner" id="vo" key="k"}
+            <div class="item {$k == 1 ? 'active' : ''}">
+                <img class="img-responsive" src="{$vo.media_id}" alt="1 slide">
             </div>
-            <div class="item">
-                <img class="img-responsive" src="__STATIC__/index/img/banner/flower.jpg" alt="2 slide">
-
-            </div>
-            <div class="item">
-                <img class="img-responsive" src="__STATIC__/index/img/banner/coffee.jpg" alt="3 slide">
-
-
-            </div>
-            <div class="item">
-                <img class="img-responsive" src="__STATIC__/index/img/banner/building.jpg" alt="4 slide">
-
-
-            </div>
+            {/volist}
         </div>
         <a class="left carousel-control" href="#ad-carousel" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
@@ -63,37 +48,21 @@
     <div class="col-md-3">
         <h3>清宇资讯
             <a>News</a>
-            </h2>
+            </h3>
 
-            <div class="news col-md-12 col-sm-4 col-xs-4">
-                <img class="newsImg img-responsive col-md-6" src="__STATIC__/index/img/news.png" alt="">
-                <div class="word col-md-6">
-                    <h4>
-                        <strong>标题</strong>
-        </h3>
-        <p>摘要：XXXXXXXXXX</p>
-    </div>
-</div>
 
+{volist name="newsThree" id="vo"}
 <div class="news  col-md-12 col-sm-4 col-xs-4">
-    <img class="newsImg img-responsive col-md-6" src="__STATIC__/index/img/news.png" alt="">
+    <img class="newsImg img-responsive col-md-6" src="{$vo.media_id}" alt="">
     <div class="word col-md-6">
         <h4>
-            <strong>标题</strong>
+            <strong>{$vo.title}</strong>
             </h3>
             <p>摘要：XXXXXXXXXX</p>
     </div>
 </div>
+{/volist}
 
-<div class="news  col-md-12 col-sm-4 col-xs-4">
-    <img class="newsImg img-responsive col-md-6" src="__STATIC__/index/img/news.png" alt="">
-    <div class="word col-md-6">
-        <h4>
-            <strong>标题</strong>
-            </h3>
-            <p>摘要：XXXXXXXXXX</p>
-    </div>
-</div>
 </div>
 <div class="col-md-3 word-news">
     <h3 class="more">更多
@@ -128,35 +97,11 @@
                 <!--  <img class="mr_frBtnL prev" src="images/mfrl.gif" /> -->
                 <div class="mr_frUl">
                     <ul id="mr_fu">
+                        {volist name="desert" id="vo"}
                         <li>
-                            <img src="__STATIC__/index/img/shop.png" />
+                            <img src="{$vo.media_id}" />
                         </li>
-                        <li>
-                            <img src="__STATIC__/index/img/shop.png" />
-                        </li>
-                        <li>
-                            <img src="__STATIC__/index/img/shop.png" />
-                        </li>
-                        <li>
-                            <img src="__STATIC__/index/img/shop.png" />
-                        </li>
-                        <li>
-                            <img src="__STATIC__/index/img/shop.png" />
-                        </li>
-                        <li>
-                            <img src="__STATIC__/index/img/shop.png" />
-                        </li>
-                        <li>
-                            <img src="__STATIC__/index/img/shop.png" />
-                        </li>
-                        <li>
-                            <img src="__STATIC__/index/img/shop.png" />
-                        </li>
-                        <li>
-                            <img src="__STATIC__/index/img/shop.png" />
-                        </li>
-
-
+                        {/volist}
                     </ul>
                 </div>
                 <!-- <img class="mr_frBtnR next" src="images/mfrr.gif" /> -->
