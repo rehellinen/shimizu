@@ -31,4 +31,22 @@ class Event extends Model
         $data['id'] = $id;
         return $this->find($data);
     }
+
+    public function getIndexBigEvent()
+    {
+        $data['status'] = 1;
+        return $this->where($data)->find();
+    }
+
+    public function getIndexEvents()
+    {
+        $data['status'] = 1;
+        return $this->where($data)->order('id desc')->limit(6)->select();
+    }
+
+    public function getIndexAllEvents()
+    {
+        $data['status'] = 1;
+        return $this->order('id desc')->where($data)->select()->toArray();
+    }
 }

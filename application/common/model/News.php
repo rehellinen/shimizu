@@ -42,4 +42,10 @@ class News extends Model
         $data['status'] = 1;
         return $this->order('id desc')->where($data)->limit(3)->select()->toArray();
     }
+
+    public function getIndexNews()
+    {
+        $data['status'] = 1;
+        return $this->order('id desc')->where($data)->select()->toArray();
+    }
 }

@@ -39,11 +39,12 @@
         <h3>近期活动
             <a>Evevnt</a>
             </h2>
-            <img class="img-responsive" src="__STATIC__/index/img/event.png" alt="近期活动">
+            <img class="img-responsive" src="{$eventBig.media_id}" alt="近期活动">
             <h4>
-                <strong>标题标题标题</strong>
+                <strong>{$eventBig.title}</strong>
         </h3>
-        <p>摘要：XXXXXXXXXX</p>
+        <p>{$eventBig.subtitle}</p>
+        <p>{$eventBig.create_time}</p>
     </div>
     <div class="col-md-3">
         <h3>清宇资讯
@@ -58,7 +59,7 @@
         <h4>
             <strong>{$vo.title}</strong>
             </h3>
-            <p>摘要</p>
+            <p>{$vo.subtitle}</p>
             <p>{$vo.create_time}</p>
     </div>
 </div>
@@ -69,14 +70,9 @@
     <h3 class="more">更多
         <a>More</a>
     </h3>
-    <p>最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯</p>
-    <p>最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯</p>
-    <p>最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯</p>
-    <p>最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯</p>
-    <p>最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯</p>
-    <p>最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯最新资讯</p>
-
-
+    {volist name="events" id="vo"}
+        <p>{$vo.title}<br />{$vo.create_time}</p>
+    {/volist}
 </div>
 </div>
 

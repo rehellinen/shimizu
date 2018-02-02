@@ -12,6 +12,10 @@ class News extends BaseController
 {
     public function index()
     {
-        return $this->fetch();
+        $news = (new \app\common\model\News())->getIndexNews();
+
+        return $this->fetch('', [
+            'news' => $news
+        ]);
     }
 }

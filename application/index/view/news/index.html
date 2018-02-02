@@ -7,66 +7,18 @@
     
     <!-- 资讯 -->
     <div class="body">
+        {volist name="news" id="vo" key="key"}
         <div class="news col-md-12">
             <div class="col-md-3">
-                <img src="__STATIC__/index/img/newsImg.png" class="img-responsive" alt="新闻图片">
+                <img src="{$vo.media_id}" class="img-responsive" alt="新闻图片">
             </div>
             <div class="col-md-9">
-                <h3>资讯1 标题XXXX XXXXX XXXXX</h3>
-                <h3>副标题</h3>
-                <p class="time">XXXX年XX月XX日</p>
+                <h3>资讯{$key}：{$vo.title}</h3>
+                <h3>{$vo.subtitle}</h3>
+                <p class="time">{$vo.create_time}</p>
             </div>
         </div>
-        <div class="news col-md-12">
-            <div class="col-md-3">
-                <img src="__STATIC__/index/img/newsImg.png" class="img-responsive" alt="新闻图片">
-            </div>
-            <div class="col-md-9">
-                <h3>资讯1 标题XXXX XXXXX XXXXX</h3>
-                <h3>副标题</h3>
-                <p class="time">XXXX年XX月XX日</p>
-            </div>
-        </div>
-        <div class="news col-md-12">
-            <div class="col-md-3">
-                <img src="__STATIC__/index/img/newsImg.png" class="img-responsive" alt="新闻图片">
-            </div>
-            <div class="col-md-9">
-                <h3>资讯1 标题XXXX XXXXX XXXXX</h3>
-                <h3>副标题</h3>
-                <p class="time">XXXX年XX月XX日</p>
-            </div>
-        </div>
-        <div class="news col-md-12">
-            <div class="col-md-3">
-                <img src="__STATIC__/index/img/newsImg.png" class="img-responsive" alt="新闻图片">
-            </div>
-            <div class="col-md-9">
-                <h3>资讯1 标题XXXX XXXXX XXXXX</h3>
-                <h3>副标题</h3>
-                <p class="time">XXXX年XX月XX日</p>
-            </div>
-        </div>
-        <div class="news col-md-12">
-            <div class="col-md-3">
-                <img src="__STATIC__/index/img/newsImg.png" class="img-responsive" alt="新闻图片">
-            </div>
-            <div class="col-md-9">
-                <h3>资讯1 标题XXXX XXXXX XXXXX</h3>
-                <h3>副标题</h3>
-                <p class="time">XXXX年XX月XX日</p>
-            </div>
-        </div>
-        <div class="news col-md-12">
-            <div class="col-md-3">
-                <img src="__STATIC__/index/img/newsImg.png" class="img-responsive" alt="新闻图片">
-            </div>
-            <div class="col-md-9">
-                <h3>资讯1 标题XXXX XXXXX XXXXX</h3>
-                <h3>副标题</h3>
-                <p class="time">XXXX年XX月XX日</p>
-            </div>
-        </div>
+        {/volist}
     </div>
 
 {include file="public/footer"}

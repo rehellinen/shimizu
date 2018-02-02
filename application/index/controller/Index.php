@@ -12,16 +12,20 @@ class Index extends BaseController
         // 大轮播图
         $banner = (new Banner())->getIndexBanner();
         // 近期活动大图
-//        $eventBig = (new News())->getIndexBigEvent();
+        $eventBig = (new \app\common\model\Event())->getIndexBigEvent();
         // 咨询三个图
         $newsThree = (new News())->getIndexThreeNews();
         // 下方甜品轮播
         $desert = (new Desert())->getIndexDesert();
+        // 活动
+        $events = (new \app\common\model\Event())->getIndexEvents();
 
         return $this->fetch('', [
             'banner' => $banner,
             'desert' => $desert,
-            'newsThree' => $newsThree
+            'newsThree' => $newsThree,
+            'eventBig' => $eventBig,
+            'events' => $events
         ]);
     }
 }

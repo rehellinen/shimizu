@@ -13,6 +13,14 @@ class Event extends BaseController
 {
     public function index()
     {
-        return $this->fetch();
+        $events = (new \app\common\model\Event())->getIndexAllEvents();
+
+        // 近期活动大图
+        $eventBig = (new \app\common\model\Event())->getIndexBigEvent();
+
+        return $this->fetch('', [
+            'events' => $events,
+            'eventBig' => $eventBig
+        ]);
     }
 }

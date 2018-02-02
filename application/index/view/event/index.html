@@ -6,79 +6,33 @@
         <!-- 最新活动 -->
         <div class="recent col-md-12">
             <div class="col-md-4 col-sm-12">
-                <img src="__STATIC__/index/img/eventPoster.png" class="img-responsive" alt="最新活动海报">
+                <img src="{$eventBig.media_id}" class="img-responsive" alt="最新活动海报">
             </div>
             <div class="col-md-8 col-sm-12">
-                <h1>最新活动标题</h1>
-                <h3>副标题</h3>
+                <h1>{$eventBig.title}</h1>
+                <h3>{$eventBig.subtitle}</h3>
                 <h4>内容简介</h4>
                 <div class="contentContainer">
                     <p class="content">
-                        XXXXXXXXXXXX
-                    </p>
-                    <p class="content">
-                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                    </p>
-                    <p class="content">
-                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        {$eventBig.content}
                     </p>
                 </div>
-                <p class="time">XXXX年XX月XX日</p>
+                <p class="time">{$eventBig.create_time}</p>
             </div>
         </div>
 
         <!-- 近期活动 -->
+        {volist name="events" id="vo" key="key"}
         <div class="moreEvent col-md-12">
             <div class="col-md-3">
-                <img src="__STATIC__/index/img/eventImg.png" class="img-responsive" alt="近期活动">
+                <img src="{$vo.media_id}" class="img-responsive" alt="新闻图片">
             </div>
             <div class="col-md-9">
-                <h3 class="moreEventTitle">活动2标题XXXXXXXXXXXXXXXXXXXX</h3>
-                <h4>副标题</h4>
-                <p class="time">XXXX年XX月XX日</p>
+                <h3>资讯{$key}：{$vo.title}</h3>
+                <h3>{$vo.subtitle}</h3>
+                <p class="time">{$vo.create_time}</p>
             </div>
         </div>
-        <div class="moreEvent col-md-12">
-            <div class="col-md-3">
-                <img src="__STATIC__/index/img/eventImg.png" class="img-responsive" alt="近期活动">
-            </div>
-            <div class="col-md-9">
-                <h3 class="moreEventTitle">活动2标题XXXXXXXXXXXXXXXXXXXX</h3>
-                <h4>副标题</h4>
-                <p class="time">XXXX年XX月XX日</p>
-            </div>
-        </div>
-        <div class="moreEvent col-md-12">
-            <div class="col-md-3">
-                <img src="__STATIC__/index/img/eventImg.png" class="img-responsive" alt="近期活动">
-            </div>
-            <div class="col-md-9">
-                <h3 class="moreEventTitle">活动2标题XXXXXXXXXXXXXXXXXXXX</h3>
-                <h4>副标题</h4>
-                <p class="time">XXXX年XX月XX日</p>
-            </div>
-        </div>
-        <div class="moreEvent col-md-12">
-            <div class="col-md-3">
-                <img src="__STATIC__/index/img/eventImg.png" class="img-responsive" alt="近期活动">
-            </div>
-            <div class="col-md-9">
-                <h3 class="moreEventTitle">活动2标题XXXXXXXXXXXXXXXXXXXX</h3>
-                <h4>副标题</h4>
-                <p class="time">XXXX年XX月XX日</p>
-            </div>
-        </div>
-        <div class="moreEvent col-md-12">
-            <div class="col-md-3">
-                <img src="__STATIC__/index/img/eventImg.png" class="img-responsive" alt="近期活动">
-            </div>
-            <div class="col-md-9">
-                <h3 class="moreEventTitle">活动2标题XXXXXXXXXXXXXXXXXXXX</h3>
-                <h4>副标题</h4>
-                <p class="time">XXXX年XX月XX日</p>
-            </div>
-        </div>
-
-
+        {/volist}
     </div>
 {include file="public/footer"}

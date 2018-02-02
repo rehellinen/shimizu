@@ -8,11 +8,17 @@
 
 namespace app\index\controller;
 
+use app\common\model\Banner;
 
 class Product extends BaseController
 {
     public function index()
     {
-        return $this->fetch();
+        // 大轮播图
+        $banner = (new Banner())->getIndexBanner();
+
+        return $this->fetch('', [
+            'banner' => $banner
+        ]);
     }
 }
