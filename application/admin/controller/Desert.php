@@ -36,7 +36,8 @@ class Desert extends BaseController
                 'status' => 0,
                 'name' => $post['name'],
                 'introduction' => $post['introduction'],
-                'price' => $post['price']
+                'price' => $post['price'],
+                'japan_name' => $post['japan_name']
             );
             $bannerRes = model('Desert')->insert($desert);
 
@@ -67,6 +68,7 @@ class Desert extends BaseController
             $desert['name'] = $post['name'];
             $desert['introduction'] = $post['introduction'];
             $desert['price'] = $post['price'];
+            $desert['japan_name'] = $post['japan_name'];
             $result = model('Desert')->where('id='.$post['id'])->update($desert);
             if($result){
                 return show(1,'更新成功');

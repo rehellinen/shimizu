@@ -20,6 +20,7 @@
                             <tr>
                                 <th></th>
                                 <th>名称</th>
+                                <th>日本名</th>
                                 <th>价格</th>
                                 <th>状态</th>
                                 <th>操作</th>
@@ -30,6 +31,7 @@
                             <tr>
                                 <td style="width: 30px"><input type="checkbox" name="{$vo.id}" value="{$vo.id}"></td>
                                 <td>{$vo.name}</td>
+                                <td>{$vo.japan_name}</td>
                                 <td>{$vo.price}</td>
                                 <td class="statusButton" attr-id="{$vo.id}" attr-status="{$vo.status == 1 ? 2 : 1}"
                                     message="是否确定更改状态">
