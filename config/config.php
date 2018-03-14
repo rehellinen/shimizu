@@ -143,12 +143,12 @@ return [
     // 视图输出字符串内容替换
     'view_replace_str'       => [
         // rehellinen.cn
-//        '__STATIC__' => '/project/shimizu/public/static',
-//        '__PATH__' => 'http://rehellinen.cn/project/shimizu/public/index.php'
+        // '__STATIC__' => '/static',
+        // '__PATH__' => '/'
 
         // 本机
-        '__STATIC__' => '/static',
-        '__PATH__' => '/index.php'
+       '__STATIC__' => '/shimizu/public/static',
+       '__PATH__' => '/shimizu/public/index.php'
     ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',

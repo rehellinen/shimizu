@@ -54,12 +54,23 @@
         padding-left: 5px;
         padding-right: 0px;
     }
+    .smPic > .product > img{
+    	display: block;
+    	margin-right: auto;
+    	margin-left: auto;
+    }
+
     .smPic{
-     padding-left: 0px;
-     padding-right: 0px; 
+     	padding-left: 0px;
+     	padding-right: 0px; 
     }
     .product9 > .product{
-     padding-left: 5px;
-     padding-right: 0px; 
+     	padding-left: 5px;
+     	padding-right: 0px; 
     }
-}
+    .product9 > .product > img{
+     	display: block;
+    	margin-right: auto;
+    	margin-left: auto;
+    }
+}	

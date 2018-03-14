@@ -44,3 +44,12 @@
     }
     
 }
+
+/*超小屏幕时显示 <400 */
+@media (max-width: 400px){
+    img{
+	display: block;
+    	margin-right: auto;
+    	margin-left: auto;
+    }
+}

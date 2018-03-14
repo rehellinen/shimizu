@@ -207,7 +207,7 @@ a{
 
 /* footer */
 
-footer {
+.footer {
     background: rgb(78, 130, 55);
     position: relative;
     bottom: 0px;

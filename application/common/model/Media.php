@@ -13,6 +13,11 @@ use think\Model;
 
 class Media extends Model
 {
+    public function getUrlAttr($value)
+    {
+        return $value;
+    }
+
     public function insertMedia($url)
     {
         $data['url'] = $url;
