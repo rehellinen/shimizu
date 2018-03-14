@@ -21,7 +21,7 @@ return [
     // 应用Trace
     'app_trace'              => false,
     // 应用模式状态
-    'app_status'             => '',
+    'app_status'             => 'home',
     // 是否支持多模块
     'app_multi_module'       => true,
     // 入口自动绑定模块
@@ -141,15 +141,7 @@ return [
     ],
 
     // 视图输出字符串内容替换
-    'view_replace_str'       => [
-        // rehellinen.cn
-        // '__STATIC__' => '/static',
-        // '__PATH__' => '/'
-
-        // 本机
-       '__STATIC__' => '/shimizu/public/static',
-       '__PATH__' => '/shimizu/public/index.php'
-    ],
+    'view_replace_str'       => [],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
     'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',

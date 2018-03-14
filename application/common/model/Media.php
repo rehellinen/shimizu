@@ -15,7 +15,7 @@ class Media extends Model
 {
     public function getUrlAttr($value)
     {
-        return $value;
+        return config('img_prefix').$value;
     }
 
     public function insertMedia($url)
