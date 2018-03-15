@@ -1,0 +1,95 @@
+/* banner */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    background: rgb(78, 130, 55) !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #eeeeee;
+}
+/* head */
+.header-box{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    background-color: white;
+    width: 100%;
+    padding-top: 20px;
+}
+body{
+    background: #f6f6f6;
+}
+.body{
+    background: white;
+    border-left: #ccc    solid 2px;
+    border-right: #ccc solid 2px;
+}
+.head img {
+    width: 150px;
+    height: 160px;
+}
+
+hr {
+    height: 1px;
+    background: rgb(78, 130, 55);
+    padding: 1px;
+    margin-bottom: 0px !important;
+}
+/* 联系我们的信息 */
+
+.contact {
+    
+    background: rgb(78, 130, 55);
+    display: inline;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.contact {
+    border-bottom: 1px solid #000;
+}
+
+.contact-detail {
+    display: inline !important;
+}
+
+.contact-detail>img {
+    display: inline !important;
+}
+
+.contact-detail>p {
+    display: inline !important;
+}
+.footerWord{
+    height: 200px;
+}
+.QR {
+    width: 70px;
+    height: 70px;
+    display: inline;
+}
+
+
+/* footer */
+
+footer {
+    background: rgb(78, 130, 55);
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
+
+/* 超大屏幕时样式 >1024 */
+@media (min-width: 1024px) {
+    .contact {
+        padding-top: 15px;
+        padding-left: 40%;
+        padding-bottom: 15px;
+    }
+   
+
+ }

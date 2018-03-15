@@ -1,0 +1,23 @@
+<!--轮播图-->
+<div>
+    <div id="ad-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            {volist name="banner" id="vo" key="k"}
+            <li data-target="#ad-carousel" data-slide-to="0" class="{$k == 1 ? 'active' : ''}"></li>
+            {/volist}
+        </ol>
+        <div class="carousel-inner">
+            {volist name="banner" id="vo" key="k"}
+            <div class="item {$k == 1 ? 'active' : ''}">
+                <img class="img-responsive" src="{$vo.media_id}" alt="1 slide">
+            </div>
+            {/volist}
+        </div>
+        <a class="left carousel-control" href="#ad-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#ad-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>

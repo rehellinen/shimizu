@@ -13,6 +13,4 @@ class Index extends BaseController
     {
         return $this->fetch();
     }
-
-
 }

@@ -1,30 +1,18 @@
 {include file="public/header"}
-
+<link rel="stylesheet" href="__STATIC__/index/css/slick.css">
+<link rel="stylesheet" href="__STATIC__/index/css/slick-theme.css">
     {include file="public/nav"}
 
 
 <!-- 轮播图 -->
-<div>
-    <div id="ad-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            {volist name="banner" id="vo" key="k"}
-            <li data-target="#ad-carousel" data-slide-to="0" class="{$k == 1 ? 'active' : ''}"></li>
-            {/volist}
-        </ol>
-        <div class="carousel-inner">
-            {volist name="banner" id="vo" key="k"}
-            <div class="item {$k == 1 ? 'active' : ''}">
-                <img class="img-responsive" src="{$vo.media_id}" alt="1 slide">
-            </div>
-            {/volist}
-        </div>
-        <a class="left carousel-control" href="#ad-carousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#ad-carousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
+<div class="banner">
+    {volist name="banner" id="vo" key="k"}
+    <div>
+        <a href="">
+            <img src="{$vo.media_id}" alt="">
         </a>
     </div>
+    {/volist}
 </div>
 
 <!-- 横条 -->
@@ -38,34 +26,31 @@
     <div class="col-md-6">
         <h3>近期活动
             <a>Evevnt</a>
-            </h2>
-            <img class="img-responsive" src="{$eventBig.media_id}" alt="近期活动">
-            <h4>
-                <strong>{$eventBig.title}</strong>
         </h3>
+        <img class="img-responsive" src="{$eventBig.media_id}" alt="近期活动">
+        <h4>
+            <strong>{$eventBig.title}</strong>
+        </h4>
         <p>{$eventBig.subtitle}</p>
         <p>{$eventBig.create_time}</p>
     </div>
     <div class="col-md-3">
         <h3>清宇资讯
             <a>News</a>
-            </h3>
-
-
-{volist name="newsThree" id="vo"}
-<div class="news  col-md-12 col-sm-4 col-xs-4">
-    <img class="newsImg img-responsive col-md-6" src="{$vo.media_id}" alt="">
-    <div class="word col-md-6">
-        <h4>
-            <strong>{$vo.title}</strong>
-            </h3>
-            <p>{$vo.subtitle}</p>
-            <p>{$vo.create_time}</p>
+        </h3>
+        {volist name="newsThree" id="vo"}
+        <div class="news  col-md-12 col-sm-4 col-xs-4">
+            <img class="newsImg img-responsive col-md-6" src="{$vo.media_id}" alt="">
+            <div class="word col-md-6">
+                <h4>
+                    <strong>{$vo.title}</strong>
+                </h4>
+                <p>{$vo.subtitle}</p>
+                <p>{$vo.create_time}</p>
+            </div>
+        </div>
+        {/volist}
     </div>
-</div>
-{/volist}
-
-</div>
 <div class="col-md-3 word-news">
     <h3 class="more">更多
         <a>More</a>
@@ -88,7 +73,6 @@
     </div>
     <!-- 营业执照轮播 -->
     <div class="license col-md-12 hidden-xs">
-
         <div class="friend">
             <div class="mr_frbox">
                 <!--  <img class="mr_frBtnL prev" src="images/mfrl.gif" /> -->

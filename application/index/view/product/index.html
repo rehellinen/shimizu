@@ -1,57 +1,53 @@
 {include file="public/header"}
 <link rel="stylesheet" href="__STATIC__/index/css/product.css" type="text/css" media="all" />
+<link rel="stylesheet" href="__STATIC__/index/css/index.css" type="text/css" media="all" />
+<link rel="stylesheet" href="__STATIC__/index/css/base.css" type="text/css" media="all" />
+<link rel="stylesheet" href="__STATIC__/index/css/slick.css">
+<link rel="stylesheet" href="__STATIC__/index/css/slick-theme.css">
 {include file="public/nav"}
 
 
     <!-- 轮播图 -->
-<div>
-    <div id="ad-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            {volist name="banner" id="vo" key="k"}
-            <li data-target="#ad-carousel" data-slide-to="0" class="{$k == 1 ? 'active' : ''}"></li>
-            {/volist}
-        </ol>
-        <div class="carousel-inner">
-            {volist name="banner" id="vo" key="k"}
-            <div class="item {$k == 1 ? 'active' : ''}">
-                <img class="img-responsive" src="{$vo.media_id}" alt="1 slide">
-            </div>
-            {/volist}
+    <div class="banner">
+        {volist name="banner" id="vo" key="k"}
+        <div>
+            <a href="">
+                <img src="{$vo.media_id}" alt="">
+            </a>
         </div>
-        <a class="left carousel-control" href="#ad-carousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#ad-carousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        {/volist}
     </div>
-</div>
 
     <!-- 产品展示 -->
     <div class="body col-md-12">
         <div class="col-md-12">
             {volist name="bestDesert" id="big" offset="0" length="1"}
+            <a href="__PATH__?s=index/detail/index&id={$big.deserts_id.id}">
             <div class="bigPic col-md-5 col-sm-12 hidden-sm hidden-xs">
                 <img class="img-responsive" src="{$big.deserts_id.media_id}" />
             </div>
+            </a>
             {/volist}
             <div class="smPic col-md-7">
                 {volist name="bestDesert" id="best" offset="1" length="4"}
+                <a href="__PATH__?s=index/detail/index&id={$best.deserts_id.id}">
                 <div class="product col-md-6 col-sm-6">
                     <img class="img-responsive" src="{$best.deserts_id.media_id}" />
                     <p>{$best.deserts_id.name}</p>
-                    <p>{$best.deserts_id.introduction}</p>
                 </div>
+                </a>
                 {/volist}
             </div>
         </div>
         <div class="product9 col-md-12">
             {volist name="allDesert" id="all"}
+            <a href="__PATH__?s=index/detail/index&id={$all.id}">
             <div class="product col-md-4 col-sm-6">
                 <img class="img-responsive" src="{$all.media_id}" />
                 <p>{$all.name}</p>
                 <p>{$all.japan_name}</p>
             </div>
+            </a>
             {/volist}
             {$allDesert->render()}
         </div>

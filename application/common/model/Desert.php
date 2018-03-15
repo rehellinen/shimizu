@@ -38,4 +38,10 @@ class Desert extends Model
         $data['status'] = 1;
         return $this->where($data)->order('id desc')->paginate();
     }
+
+    public function getLeftDeserts()
+    {
+        $data['status'] = 1;
+        return $this->where($data)->order('id desc')->paginate(3);
+    }
 }

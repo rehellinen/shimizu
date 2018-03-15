@@ -42,8 +42,35 @@
     </div>
 </div>
 
+
 <script type="text/javascript" src="__STATIC__/index/js/jquery-1.11.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
 <script src="__STATIC__/index/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__STATIC__/index/js/jquery.SuperSlide2.js"></script>
+<script type="text/javascript" src="__STATIC__/index/js/base.js"></script>
+<script type="text/javascript" src="__STATIC__/index/js/slider.js"></script>
+<script type="text/javascript" src="__STATIC__/index/js/index.js"></script>
+<script src="__STATIC__/index/js/slick.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        /* 图片滚动效果 */
+        $(".mr_frbox").slide({
+            titCell: "",
+            mainCell: ".mr_frUl ul",
+            autoPage: true,
+            effect: "leftLoop",
+            autoPlay: true,
+            vis: 4
+        });
+    });
+
+
+</script>
 </body>
 
 </html>

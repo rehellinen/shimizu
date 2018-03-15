@@ -13,7 +13,7 @@ $(function() {
         'onUploadSuccess' : function(file, data, response) {
             if(response){
                 var obj = JSON.parse(data);
-                $("#upload_org_code_img").attr("src", obj.data);
+                $("#upload_org_code_img").attr("src", '/shimizu/public' + obj.data);
                 $("#upload_org_code_img").show();
                 $("#file_upload_image").attr("value", obj.data);
             }
