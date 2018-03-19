@@ -22,7 +22,7 @@
     <div class="body col-md-12">
         <div class="col-md-12">
             {volist name="bestDesert" id="big" offset="0" length="1"}
-            <a href="__PATH__?s=index/detail/index&id={$big.deserts_id.id}">
+            <a href="__PATH__?s=index/product/detail&id={$big.deserts_id.id}">
             <div class="bigPic col-md-5 col-sm-12 hidden-sm hidden-xs">
                 <img class="img-responsive" src="{$big.deserts_id.media_id}" />
             </div>
@@ -30,7 +30,7 @@
             {/volist}
             <div class="smPic col-md-7">
                 {volist name="bestDesert" id="best" offset="1" length="4"}
-                <a href="__PATH__?s=index/detail/index&id={$best.deserts_id.id}">
+                <a href="__PATH__?s=index/product/detail&id={$best.deserts_id.id}">
                 <div class="product col-md-6 col-sm-6">
                     <img class="img-responsive" src="{$best.deserts_id.media_id}" />
                     <p>{$best.deserts_id.name}</p>
@@ -41,7 +41,7 @@
         </div>
         <div class="product9 col-md-12">
             {volist name="allDesert" id="all"}
-            <a href="__PATH__?s=index/detail/index&id={$all.id}">
+            <a href="__PATH__?s=index/product/detail&id={$all.id}">
             <div class="product col-md-4 col-sm-6">
                 <img class="img-responsive" src="{$all.media_id}" />
                 <p>{$all.name}</p>
