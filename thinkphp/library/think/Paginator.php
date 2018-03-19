@@ -52,6 +52,11 @@ abstract class Paginator implements ArrayAccess, Countable, IteratorAggregate, J
     /** @var mixed simple模式下的下个元素 */
     protected $nextItem;
 
+    public function hasMore()
+    {
+        return $this->hasMore;
+    }
+
     public function __construct($items, $listRows, $currentPage = null, $total = null, $simple = false, $options = [])
     {
         $this->options = array_merge($this->options, $options);

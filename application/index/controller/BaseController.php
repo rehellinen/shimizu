@@ -18,4 +18,14 @@ class BaseController extends Controller
         $nav = model('menu')->getIndexNavMenu();
         $this->assign('nav', $nav);
     }
+
+    public function getNextPage($data)
+    {
+        $currentPage = $data->currentPage();
+        $hasMore = $data->hasMore();
+        if($hasMore){
+            return ++$currentPage;
+        }
+        return $currentPage;
+    }
 }

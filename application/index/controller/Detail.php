@@ -26,10 +26,18 @@ class Detail extends BaseController
 
         // 左侧产品
         $leftDesert = (new Desert())->getLeftDeserts();
+        $currentPage = $this->getNextPage($leftDesert);
+
         return $this->fetch('', [
             'desert' => $desert,
             'leftDesert' => $leftDesert,
-            'id' => $product_id
+            'id' => $product_id,
+            'page' => $currentPage
         ]);
     }
 }
+
+
+
+
+

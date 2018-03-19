@@ -2,39 +2,25 @@
 <link rel="stylesheet" href="__STATIC__/index/css/event.css" type="text/css" media="all" />
 {include file="public/nav"}
 
-    <div class="body">
-        <!-- 最新活动 -->
-        <div class="recent col-md-12">
-            <div class="col-md-4 col-sm-12">
-                <img src="{$eventBig.media_id}" class="img-responsive" alt="最新活动海报">
-            </div>
-            <div class="col-md-8 col-sm-12">
-                <h1>{$eventBig.title}</h1>
-                <h3>{$eventBig.subtitle}</h3>
-                <h4>内容简介</h4>
-                <div class="contentContainer">
-                    <p class="content">
-                        {$eventBig.content}
-                    </p>
-                </div>
-                <p class="time">{$eventBig.create_time}</p>
-            </div>
-        </div>
 
-        <!-- 近期活动 -->
+    <div class="body-box col-md-8">
         {volist name="events" id="vo" key="key"}
-        <div class="moreEvent col-md-12">
+        <div class="news col-md-12" style="margin-top: 4%">
             <div class="col-md-3">
                 <img src="{$vo.media_id}" class="img-responsive" alt="新闻图片">
             </div>
-            <div class="col-md-9">
-                <h3>资讯{$key}：{$vo.title}</h3>
-                <h3>{$vo.subtitle}</h3>
+            <div class="col-md-7">
                 <p class="time">{$vo.create_time}</p>
+                <h3 class="title">活动{$key}：{$vo.title}</h3>
+                <p class="summary">{$vo.subtitle}</p>
+                <p class="summary">内容简介</p>
+                <p class="link">
+                    <a href="__PATH__?s=index/event/detail&event_id={$vo.id}">了解详细</a>
+                </p>
             </div>
         </div>
         {/volist}
-
-        {$events->render()}
     </div>
+    {$events->render()}
+
 {include file="public/footer"}

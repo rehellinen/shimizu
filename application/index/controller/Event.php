@@ -8,6 +8,7 @@
 
 namespace app\index\controller;
 
+use think\Request;
 
 class Event extends BaseController
 {
@@ -21,6 +22,27 @@ class Event extends BaseController
         return $this->fetch('', [
             'events' => $events,
             'eventBig' => $eventBig
+        ]);
+    }
+
+    public function detail()
+    {
+        $get = Request::instance()->get();
+        if(!$get){
+            return '没有传入id';
+        }
+        $event_id = $get['event_id'];
+        $event = (new \app\common\model\Event())->find($event_id);
+
+        // 左侧产品
+        $left = (new \app\common\model\Event())->getLeftEvent();
+        $currentPage = $this->getNextPage($left);
+
+        return $this->fetch('', [
+            'event' => $event,
+            'left' => $left,
+            'id' => $event_id,
+            'page' => $currentPage
         ]);
     }
 }

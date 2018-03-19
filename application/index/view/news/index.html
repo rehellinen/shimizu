@@ -6,7 +6,7 @@
     <div class=" col-md-12">
         <div class="news-box">
             {volist name="news" id="vo" key="key"}
-            <div class="news col-md-12">
+            <div class="news col-md-12" >
                 <div class="col-md-3">
                     <img src="{$vo.media_id}" class="img-responsive" alt="新闻图片">
                 </div>
@@ -14,9 +14,8 @@
                     <p class="time">{$vo.create_time}</p>
                     <h3 class="title">资讯{$key}：{$vo.title}</h3>
                     <p class="summary">{$vo.subtitle}</p>
-                    <p class="summary">详细</p>
                     <p class="link">
-                        <a href="">了解详细</a>
+                        <a href="__PATH__?s=index/news/detail&news_id={$vo.id}">了解详细</a>
                     </p>
                 </div>
             </div>

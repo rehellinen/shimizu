@@ -48,4 +48,10 @@ class News extends Model
         $data['status'] = 1;
         return $this->order('id desc')->where($data)->paginate(10);
     }
+
+    public function getLeftNews()
+    {
+        $data['status'] = 1;
+        return $this->where($data)->order('id desc')->paginate(3);
+    }
 }

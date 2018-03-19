@@ -7,13 +7,13 @@
 
         <div class="left-box col-md-2 hidden-xs hidden-sm">
             <div class="recent-box">
-                {volist name="leftDesert" id="vo"}
+                {volist name="left" id="vo"}
                 <div class="recent">
                     <img class="img-responsive" src="{$vo.media_id}" alt="">
-                    <p class="name">{$vo.name}</p>
+                    <p class="name">{$vo.title}</p>
                 </div>
                 {/volist}
-                <a href="__PATH__?s=index/detail/index&id={$id}&page={$page}">
+                <a href="__PATH__?s=index/news/detail&news_id={$id}&page={$page}">
                     <button class="btn btn-default center-block">
                         更多
                     </button>
@@ -22,22 +22,22 @@
 
             <div class="control-panel">
                 <p class="list">
-                    <a href="__PATH__?s=index/product/index">目录</a>
+                    <a href="__PATH__?s=index/news/index">目录</a>
                 </p>
                 <p class="last">
-                    <a href="__PATH__?s=index/detail/index&id={$id-1}">上一篇</a>
+                    <a href="__PATH__?s=index/news/detail&news_id={$id-1}">上一篇</a>
                 </p>
                 <p class="next">
-                    <a href="__PATH__?s=index/detail/index&id={$id+1}">下一篇</a>
+                    <a href="__PATH__?s=index/news/detail&news_id={$id+1}">下一篇</a>
                 </p>
             </div>
         </div>
 
         <div class="right-box col-md-9">
             <div class="content-box">
-                <div class="title"><p>{$desert.name}</p></div>
+                <div class="title"><p>{$news.title}</p></div>
                 <div class="content">
-                    {$desert.introduction}
+                    {$news.content}
                 </div>
             </div>
         </div>

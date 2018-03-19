@@ -10,7 +10,7 @@ return [
     'img_prefix' => '/shimizu/public',
     'view_replace_str' => [
         // rehellinen.cn
-         '__STATIC__' => '/static',
-         '__PATH__' => '/'
+         '__STATIC__' => '/shimizu/static',
+         '__PATH__' => '/shimizu/static/index.php'
     ]
 ];
