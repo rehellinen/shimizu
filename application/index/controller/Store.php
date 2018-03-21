@@ -9,10 +9,15 @@
 namespace app\index\controller;
 
 
+use app\common\model\Shop;
+
 class Store extends BaseController
 {
     public function index()
     {
-        return $this->fetch();
+        $store = (new Shop())->getIndexShop();
+        return $this->fetch('', [
+            'store' => $store
+        ]);
     }
 }

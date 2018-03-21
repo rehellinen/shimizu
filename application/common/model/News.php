@@ -22,7 +22,7 @@ class News extends Model
     public function getNews()
     {
         $data['status'] = array('neq', -1);
-        return $this->order('id desc')->where($data)->paginate(10);
+        return $this->order('id desc')->where($data)->paginate();
     }
 
     public function getNewsByID($id)

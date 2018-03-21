@@ -49,56 +49,18 @@
     <!-- 门店列表 -->
     <div class="body">
         <div class="stores">
+            {volist name="store" id="vo"}
             <div class="store col-md-12">
                 <div class="col-md-10">
-                    <p class="storeName">1,珠海暨珠店</p>
-                    <p class="storeAddress">地址：广东省珠海市香洲区前山街道翠微东路445号商铺（暨大北门公交站旁）</p>
-                    <p class="storeTel">联系电话：13149305305</p>
+                    <p class="storeName">{$vo.name}</p>
+                    <p class="storeAddress">地址：{$vo.address}</p>
+                    <p class="storeTel">联系电话：{$vo.telephone}</p>
                 </div>
                 <div class="col-md-2">
-                    <img src="__STATIC__/index/img/store.png" class="img-responsive" alt="门店照片">
+                    <img src="{$vo.media_id}" class="img-responsive" alt="门店照片">
                 </div>
             </div>
-            <div class="store col-md-12">
-                <div class="col-md-10">
-                    <p class="storeName">1,珠海暨珠店</p>
-                    <p class="storeAddress">地址：广东省珠海市香洲区前山街道翠微东路445号商铺（暨大北门公交站旁）</p>
-                    <p class="storeTel">联系电话：13149305305</p>
-                </div>
-                <div class="col-md-2">
-                    <img src="__STATIC__/index/img/store.png" class="img-responsive" alt="门店照片">
-                </div>
-            </div>
-            <div class="store col-md-12">
-                <div class="col-md-10">
-                    <p class="storeName">1,珠海暨珠店</p>
-                    <p class="storeAddress">地址：广东省珠海市香洲区前山街道翠微东路445号商铺（暨大北门公交站旁）</p>
-                    <p class="storeTel">联系电话：13149305305</p>
-                </div>
-                <div class="col-md-2">
-                    <img src="__STATIC__/index/img/store.png" class="img-responsive" alt="门店照片">
-                </div>
-            </div>
-            <div class="store col-md-12">
-                <div class="col-md-10">
-                    <p class="storeName">1,珠海暨珠店</p>
-                    <p class="storeAddress">地址：广东省珠海市香洲区前山街道翠微东路445号商铺（暨大北门公交站旁）</p>
-                    <p class="storeTel">联系电话：13149305305</p>
-                </div>
-                <div class="col-md-2">
-                    <img src="__STATIC__/index/img/store.png" class="img-responsive" alt="门店照片">
-                </div>
-            </div>
-            <div class="store col-md-12">
-                <div class="col-md-10">
-                    <p class="storeName">1,珠海暨珠店</p>
-                    <p class="storeAddress">地址：广东省珠海市香洲区前山街道翠微东路445号商铺（暨大北门公交站旁）</p>
-                    <p class="storeTel">联系电话：13149305305</p>
-                </div>
-                <div class="col-md-2">
-                    <img src="__STATIC__/index/img/store.png" class="img-responsive" alt="门店照片">
-                </div>
-            </div>
+            {/volist}
         </div>
     </div>
 
