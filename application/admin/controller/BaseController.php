@@ -58,7 +58,7 @@ class BaseController extends Controller
         }else{
             $id = $_GET['id'];
             $controller = Request::instance()->controller();
-            $result = model($controller)->get($id)->toArray();
+            $result = model($controller)->get($id);
             return $this->fetch('', [
                 'res' => $result
             ]);

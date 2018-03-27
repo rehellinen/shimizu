@@ -18,12 +18,18 @@ class Join extends BaseController
 
     public function process()
     {
-        return $this->fetch();
+        $res = (new \app\common\model\Join())->get(1);
+        return $this->fetch('', [
+            'res' => $res
+        ]);
     }
 
     public function condition()
     {
-        return $this->fetch();
+        $res = (new \app\common\model\Join())->get(1);
+        return $this->fetch('', [
+            'res' => $res
+        ]);
     }
 
     public function contact()

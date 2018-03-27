@@ -1,0 +1,68 @@
+{include file="public/header"}
+
+<div id="wrapper">
+
+    <!-- Navigation -->
+    {include file="public/nav"}
+
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">菜单管理</h1>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="form-horizontal" id="submitForm" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="id" value="{$res.id}">
+
+                    <div class="form-group">
+                        <label for="editor_id" class="col-sm-2 control-label">加盟条件：</label>
+                        <div class="col-sm-10">
+                            <textarea class="input js-editor" id="editor_id" name="condition" rows="20">{$res.condition}</textarea>
+                        </div>
+                    </div>
+                <!-- /.table-responsive -->
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label"></label>
+                        <div class="col-sm-10">
+                            <button type="button" class="btn btn-primary" id="submitButton">提交</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<script>
+    var URL = {
+        'add_url' : '__PATH__?s=admin/menu/add',
+        'edit_url' : '__PATH__?s=admin/join/edit2',
+        'status_url' : '__PATH__?s=admin/menu/status',
+        'success_url' : '__PATH__?s=admin/menu/index',
+        'listorder_url' : '__PATH__?s=admin/menu/listorder'
+
+
+
+    }
+</script>
+<script charset="utf-8" src="__STATIC__/vendor/kindeditor/kindeditor-all-min.js"></script>
+<script charset="utf-8" src="__STATIC__/vendor/kindeditor/lang/zh-CN.js"></script>
+<script>
+    KindEditor.ready(function(K) {
+        window.editor = K.create('#editor_id', {
+            uploadJson : '__PATH__?s=admin/image/editor',
+            fieldName : 'imgFile',
+            afterBlur: function () { this.sync(); }
+        });
+    });
+</script>
+{include file="public/footer"}
