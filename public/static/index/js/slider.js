@@ -6,7 +6,7 @@ $(function () {
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 2,
-        arrows: true,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 1024,

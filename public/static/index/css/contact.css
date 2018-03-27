@@ -1,0 +1,81 @@
+.body-box {
+    overflow: hidden;
+}
+
+.left-box > img{
+    width: 10%;
+}
+.content{
+    padding-top: 20px;
+}
+
+.green{
+    color: green;
+}
+form{
+    margin-top: 20px;
+}
+/* 超大屏幕时样式 >1024 */
+@media (min-width: 1024px) {
+    .body-box{
+        margin: 300px 50px 200px 50px;
+    }
+    .content > p{
+        line-height: 10px;
+        font-family: "SimSun";
+    }
+    .left-box{
+        display: inline;
+        margin-left: 20%;
+    }
+    .right-box{
+        display: inline-block;
+        margin-right: 35%;
+        float: right;
+    }
+   
+ }
+ /* 大屏幕显示样式 768-1024*/
+@media (min-width: 768px) and (max-width:1024px) {
+    .body-box{
+        margin: 350px 50px 50px 50px;
+    }
+    .content > p{
+        line-height: 15px;
+        font-family: "SimSun";
+    }
+    .right-box{
+        padding-left: 150px;
+        padding-right: 100px;
+    }
+  
+    
+}
+/* 小屏幕样式 <768*/
+@media (min-width: 414px) and (max-width: 768px) {
+    .body-box{
+        margin: 430px 5px 50px 5px;
+    }
+    .img-box > img{
+        width: 25%;
+        display: inline;
+        margin-left: 6%;
+    }
+    footer{
+        position: fixed !important;
+        bottom: 0px;
+        width: 100%;
+    }
+
+}
+@media (max-width:414px){
+    .body-box{
+        margin: 350px 5px 50px 5px;
+    }
+   
+    footer{
+        position: fixed !important;
+        bottom: 0px;
+        width: 100%;
+    }
+}

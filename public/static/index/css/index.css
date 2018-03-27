@@ -1,15 +1,12 @@
 /* banner */
 
 
-
-
-
 a{
     color:rgb(53, 202, 39);
     margin-left:5px;
 }
 /* 横条 */
-.bar{
+/* .bar{
     background: url(../img/bar.jpg) no-repeat right center rgb(78, 130, 55);
     height: 140px;
 }
@@ -24,7 +21,7 @@ a{
     margin-left: 40px;
     margin-top: 8px;
     font-family: 'microsoft yahei';
-}
+} */
 
 /* 清宇资讯 */
 .news{
@@ -55,6 +52,9 @@ a{
 .history {
     text-align: center;
     padding: 50px 0;
+    font-size: 15px;
+    text-indent: 2em;
+    line-height: 20px;
 }
 
 
@@ -141,6 +141,10 @@ a{
     /* 轮播广告 */
     .banner{
         margin-top: 270px;
+    }
+    .history{
+        width: 50%;
+        margin-left: 25%;        
     }
 
  }

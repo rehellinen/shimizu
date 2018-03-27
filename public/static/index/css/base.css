@@ -7,6 +7,7 @@
 .navbar-default .navbar-nav>li>a {
     color: #eeeeee;
 }
+
 /* head */
 .header-box{
     position: fixed;
@@ -25,6 +26,20 @@ body{
     border-left: #ccc    solid 2px;
     border-right: #ccc solid 2px;
 }
+
+
+body{
+    background: #f6f6f6;
+}
+.body-box{
+    /* border: 1px solid #291d1d; */
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-bottom: #999999 solid 2px;
+    box-shadow: 5px 3px 3px #888888;
+}
+
 .head img {
     width: 150px;
     height: 160px;
@@ -74,9 +89,10 @@ hr {
 }
 
 
+
 /* footer */
 
-.footer {
+footer {
     background: rgb(78, 130, 55);
     position: relative;
     bottom: 0px;
@@ -90,6 +106,24 @@ hr {
         padding-left: 40%;
         padding-bottom: 15px;
     }
+    .banner-icon{
+        width: 75%;
+    }
    
 
  }
+
+ /* 小屏幕样式 768>x>414*/
+@media (min-width: 414px) and (max-width: 768px) {
+    .banner-icon{
+        width: 20%;
+    }
+
+}
+
+ /* 超小屏幕样式 <414*/
+@media (max-width:414px){
+    .banner-icon{
+        width: 40%;
+    }
+}

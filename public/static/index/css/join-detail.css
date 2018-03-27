@@ -1,0 +1,46 @@
+.detail-box > p{
+    text-align: center;
+}
+/* 超大屏幕时样式 >1024 */
+@media (min-width: 1024px) {
+    .body-box{
+        margin: 300px 50px 200px 50px;
+    }
+   
+ }
+ /* 大屏幕显示样式 768-1024*/
+@media (min-width: 768px) and (max-width:1024px) {
+    .body-box{
+        margin: 350px 50px 50px 50px;
+    }
+  
+    
+}
+/* 小屏幕样式 <768*/
+@media (min-width: 414px) and (max-width: 768px) {
+    .body-box{
+        margin: 400px 5px 50px 5px;
+    }
+    .img-box > img{
+        width: 25%;
+        display: inline;
+        margin-left: 6%;
+    }
+    footer{
+        position: fixed !important;
+        bottom: 0px;
+        width: 100%;
+    }
+
+}
+@media (max-width:414px){
+    .body-box{
+        margin: 300px 5px 50px 5px;
+    }
+   
+    footer{
+        position: fixed !important;
+        bottom: 0px;
+        width: 100%;
+    }
+}

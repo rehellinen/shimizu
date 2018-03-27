@@ -1,16 +1,6 @@
-body{
-    background: #f6f6f6;
-}
-.body-box{
-    /* border: 1px solid #291d1d; */
-    background: white;
-    padding-top: 20px;
-    padding-bottom: 100px;
-    border-bottom: #999999 solid 2px;
-    box-shadow: 5px 3px 3px #888888;
-}
+
 video{
-    width: 90%;
+    width: 80%;
     margin-top: 10px;
 }
 .summary-box{
@@ -18,9 +8,9 @@ video{
 }
 .summary-box > p{
     font-family: "microsoft yahei";
-    font-size: 20px;
+    font-size: 15px;
     text-indent:2em;
-    line-height: 40px;
+    line-height: 25px;
 }
 /* 超大屏幕时样式 >1024 */
 @media (min-width: 1024px) {
