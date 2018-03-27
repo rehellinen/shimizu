@@ -10,7 +10,7 @@
     .body-box{
         margin: 300px 50px 200px 50px;
     }
-    .img-box > img{
+    .img-box > a > img{
         width: 20%;
         display: inline;
         margin-left: 10%;

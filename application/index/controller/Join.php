@@ -15,4 +15,19 @@ class Join extends BaseController
     {
         return $this->fetch();
     }
+
+    public function process()
+    {
+        return $this->fetch();
+    }
+
+    public function condition()
+    {
+        return $this->fetch();
+    }
+
+    public function contact()
+    {
+        return $this->fetch();
+    }
 }
