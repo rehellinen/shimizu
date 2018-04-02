@@ -8,40 +8,35 @@
 
     <!-- 留言 -->
     <div class="body-box">
-        <div class="left-box">
-            <img src="__STATIC__/index/img/footerWord.png" alt="" class="hidden-xs">
-        </div>
-        <div class="right-box">
-            <div class="content">
-                <p>感谢您来到清水宇治官网，若您有合作意向，可以通过拨打加盟热线联系我们，</p>
-                <p>如有疑问，请查看加盟条件及加盟程序，或者向我们留言咨询，谢谢！</p>
-                <p class="green">加盟热线 ：15820576176 张小姐&nbsp;&nbsp; 13697715641 王小姐</p>
+        <div class="row">
+            <div class="col-xs-2 col-xs-offset-1">
+                <img src="__STATIC__/index/img/footerWord.png" alt="" class="img-responsive hidden-xs">
             </div>
-
-            <form class="form-inline">
-
-                <div class="form-group">
-                    <label for="exampleInputName2">您的称呼：</label>
-                    <input type="text" class="form-control" id="exampleInputName2">
+            <div class="col-xs-6 col-xs-offset-1">
+                <div class="content">
+                    <p>感谢您来到清水宇治官网，若您有合作意向，可以通过拨打加盟热线联系我们，</p>
+                    <p>如有疑问，请查看加盟条件及加盟程序，或者向我们留言咨询，谢谢！</p>
+                    <p class="green">加盟热线 ：15820576176 张小姐&nbsp;&nbsp; 13697715641 王小姐</p>
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail2">您的联系方式：</label>
-                    <input type="text" class="form-control" id="exampleInputContact">
-                </div>
-            </form>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">您的疑问/想法：</label>
-                    <input type="text" class="form-control" >
-                </div>
-                <button type="submit" class="btn btn-danger center-block">提交留言</button>
-            </form>
-            <!-- <div class="form-box">
 
-              
-            </div> -->
+                <form class="form-horizontal" id="submitForm">
+                    <div class="form-group">
+                        <label for="exampleInputName2">您的称呼：</label>
+                        <input type="text" name="name" class="form-control" id="exampleInputName2">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputContact">您的联系方式：</label>
+                        <input type="text" name="telephone" class="form-control" id="exampleInputContact">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">您的疑问/想法：</label>
+                        <textarea type="text" name="question" rows="4" class="form-control"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-danger center-block" id="submitButton">提交留言</button>
+                </form>
+            </div>
         </div>
-
     </div>
 
 
@@ -51,4 +46,10 @@
         </div>
     </div>
 
+<script>
+    var URL = {
+        'submit_url' : "{:url('index/join/comment')}",
+        'success_url' : "{:url('index/join/index')}"
+    }
+</script>
 {include file="public/footer"}
