@@ -11,6 +11,6 @@ return [
     'view_replace_str' => [
         // rehellinen.cn
          '__STATIC__' => '/shimizu/static',
-         '__PATH__' => '/shimizu/static/index.php'
+         '__PATH__' => 'http://www.shimizuuji.com'
     ]
 ];

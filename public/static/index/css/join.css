@@ -1,8 +1,8 @@
-.img-box > img{
+.img-box img{
     cursor: pointer;
     transition: all 0.6s;
 }
-.img-box > img:hover{
+.img-box img:hover{
     transform: scale(1.1);
 }
 /* 超大屏幕时样式 >1024 */
@@ -10,7 +10,7 @@
     .body-box{
         margin: 300px 50px 200px 50px;
     }
-    .img-box > a > img{
+    .img-box img{
         width: 20%;
         display: inline;
         margin-left: 10%;
@@ -21,7 +21,7 @@
     .body-box{
         margin: 350px 50px 50px 50px;
     }
-    .img-box > img{
+    .img-box img{
         width: 20%;
         display: inline;
         margin-left: 10%;
@@ -33,7 +33,7 @@
     .body-box{
         margin: 400px 5px 50px 5px;
     }
-    .img-box > img{
+    .img-box img{
         width: 25%;
         display: inline;
         margin-left: 6%;
@@ -49,7 +49,7 @@
     .body-box{
         margin: 300px 5px 50px 5px;
     }
-    .img-box > img{
+    .img-box img{
         width: 25%;
         display: inline;
         margin-left: 6%;

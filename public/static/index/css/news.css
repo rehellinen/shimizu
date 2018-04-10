@@ -13,9 +13,16 @@
 
 .time{
     color: #878787;
+    font-size: 14px;
 }
 .link > a{
     margin-left: 0px;
+    font-family: "SimSun";
+    font-size: 18px;
+}
+a {
+    color: #4c8237;
+    /* margin-left: 5px; */
 }
 /* 超大屏幕时样式 >1024 */
 @media (min-width: 1024px) {
@@ -25,14 +32,8 @@
     .body{
         margin-top: 280px;
     }
-    .news-box{
-        margin: 280px 10%;
-        margin-bottom: 100px;
-        border-bottom: #444444 solid 2px;
-    }
+    
     .news{
-        border-left: #999999 solid 1px;
-        border-right: #999999 solid 1px;
         background: white;
     }
     .contact{
@@ -40,6 +41,12 @@
     }
     .news-box{
         margin: 280px 10%;
+        margin: 280px 10%;
+        margin-bottom: 100px;
+        border-bottom: #444444 solid 2px;
+    }
+    .body-box{
+        margin: 270px 20% 20px 15%;
     }
  }
 /* 平板屏幕样式 */
@@ -59,6 +66,20 @@
         margin-top: 270px !important;
         
     }
+    .body-box{
+        margin: 300px 15% 20px 15%;
+    }
+}
+/* 小屏幕样式 <768*/
+@media (min-width:500px) and  (max-width: 768px) {
+    .body-box{
+        margin: 360px 5% 20px 5%;
+    }
+    .news-box{
+        margin-top: 300px;
+     
+    }
+
 }
 /* 小屏幕样式 <768*/
 @media (max-width: 768px) {
@@ -69,6 +90,9 @@
         margin-top: 200px !important;
     }
     .news-box{
+        margin-top: 300px;
+    }
+    .body-box{
         margin-top: 300px;
     }
  }

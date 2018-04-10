@@ -1,10 +1,13 @@
 /* 门店信息上面的横条 */
 .storeList > div > p{
-    font-size: 30px;
+    font-size: 22px;
 }
 .storeList{
     margin-top: 30px;
     padding-left: 10%;
+}
+hr {
+    margin-top: 10px !important;
 }
 
 /* 门店信息 */
@@ -13,7 +16,12 @@
     margin-bottom: 10px;
 }
 .storeName , .storeAddress , .storeTel{
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "SimSun";
+}
+a {
+    color: #4c8237;
+    /* margin-left: 5px; */
 }
 
  /* 平板屏幕样式 768-1024*/

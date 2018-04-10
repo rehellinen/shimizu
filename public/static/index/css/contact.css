@@ -8,12 +8,11 @@
 .content{
     padding-top: 20px;
 }
-
-.green{
-    color: green;
-}
 form{
     margin-top: 20px;
+}
+label{
+    color: #878787;
 }
 /* 超大屏幕时样式 >1024 */
 @media (min-width: 1024px) {

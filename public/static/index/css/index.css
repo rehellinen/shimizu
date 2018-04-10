@@ -1,11 +1,12 @@
 /* banner */
 
-
-a{
-    color:rgb(53, 202, 39);
-    margin-left:5px;
+a {
+    /* color: #4c8237;
+    margin-left: 5px; */
 }
+
 /* 横条 */
+
 /* .bar{
     background: url(../img/bar.jpg) no-repeat right center rgb(78, 130, 55);
     height: 140px;
@@ -23,45 +24,93 @@ a{
     font-family: 'microsoft yahei';
 } */
 
-/* 清宇资讯 */
-.news{
-    padding-left: 0px!important;
+
+/* 近期活动 */
+
+.evnet-box>h3 {
+    font-size: 22px;
+    font-family: "microsoft yahei";
 }
+
+/* 清宇资讯 */
+
+.news-box>h3 {
+    font-size: 22px;
+    font-family: "microsoft yahei";
+}
+
+.news {
+    /* padding-left: 0px !important; */
+}
+
 .word-news p {
     border-bottom: solid #aaaaaa;
 }
-.newsImg{
+
+.newsImg {
     padding-left: 0px !important;
     padding-bottom: 10px;
 }
+
+.big-title {
+    font-size: 20px;
+    font-family: "microsoft yahei";
+}
+.small-title{
+    font-size: 18px;
+    font-family: "SimSun";
+}
+.date{
+    font-size: 16px;
+    font-family: "SimSun";
+    color: #878787;
+}
+.word>h4>p {
+    margin-top: 10px;
+}
+
 /* 更多 */
-.more{
+
+.more-box>h3 {
+    font-size: 22px;
+    font-family: "microsoft yahei";
+}
+
+.more {
     text-align: right;
 }
 
 /* 下方宇字logo */
-.logoContainer{
-    
+
+.logoContainer {
     background: url(../img/U.png) center;
-    background-repeat:no-repeat; 
-    background-size:auto 100%;
-    -moz-background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    -moz-background-size: auto 100%;
 }
+.contact-detail > p {
+    color: black;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+}
+
 /* 发展历程 */
 
 .history {
     text-align: center;
     padding: 50px 0;
-    font-size: 15px;
+    font-size: 18px;
     text-indent: 2em;
     line-height: 20px;
+    font-family: "microsoft yahei";
 }
-
 
 /* 执照轮播 */
-.license{
+
+.license {
     margin-bottom: 40px;
 }
+
 .friend {
     height: 200px;
     margin: 0 auto;
@@ -87,11 +136,12 @@ a{
     float: left;
     height: 202px;
     width: 100%;
-    
 }
-.tempWrap{
+
+.tempWrap {
     width: 100%;
 }
+
 .mr_frBtnR {
     float: right;
     margin-top: 160px;
@@ -116,6 +166,7 @@ a{
 }
 
 /* 超大屏幕时样式 >1024 */
+
 @media (min-width: 1024px) {
     .carousel .item {
         height: 500px;
@@ -135,20 +186,21 @@ a{
     .contact-detail {
         padding: 2px 0;
     }
-    .news{
+    .news {
         text-align: left;
     }
     /* 轮播广告 */
-    .banner{
+    .banner {
         margin-top: 270px;
     }
-    .history{
+    .history {
         width: 50%;
-        margin-left: 25%;        
+        margin-left: 25%;
     }
+}
 
- }
- /* 大屏幕显示样式 768-1024*/
+/* 大屏幕显示样式 768-1024*/
+
 @media (min-width: 768px) and (max-width:1024px) {
     .carousel .item {
         height: 500px;
@@ -168,31 +220,30 @@ a{
     .contact-detail {
         padding: 2px 0;
     }
-    .news{
+    .news {
         text-align: left;
     }
     /* 轮播广告 */
-    .banner{
+    .banner {
         margin-top: 270px;
     }
-
-    
 }
+
 /* 小屏幕样式 <768*/
+
 @media (max-width: 768px) {
-   .news{
-       text-align: left;
-   }
-   /* 更多 */
-    .more{
+    .news {
+        text-align: left;
+    }
+    /* 更多 */
+    .more {
         text-align: left;
     }
     .body {
         padding: 0 1%;
     }
     /* 轮播广告 */
-    .banner{
+    .banner {
         margin-top: 300px;
     }
-
 }

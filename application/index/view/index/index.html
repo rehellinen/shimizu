@@ -1,7 +1,7 @@
 {include file="public/header"}
 <link rel="stylesheet" href="__STATIC__/index/css/slick.css">
 <link rel="stylesheet" href="__STATIC__/index/css/slick-theme.css">
-    {include file="public/nav"}
+{include file="public/nav"}
 
 
 <!-- 轮播图 -->
@@ -17,42 +17,42 @@
 
 <div class="body col-md-12">
     <!-- 近期活动&清宇资讯&更多 -->
-    <div class="col-md-6">
+    <div class="col-md-6 event-box">
         <h3>近期活动
-            <a>Evevnt</a>
+            <a class="green">Evevnt</a>
         </h3>
         <img class="img-responsive" src="{$eventBig.media_id}" alt="近期活动">
-        <h4>
+        <h4 class="big-title">
             <strong>{$eventBig.title}</strong>
         </h4>
-        <p>{$eventBig.subtitle}</p>
-        <p>{$eventBig.create_time}</p>
+        <p class="small-title">{$eventBig.subtitle}</p>
+        <p class="date">{$eventBig.create_time}</p>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 news-box">
         <h3>清宇资讯
-            <a>News</a>
+            <a class="green">News</a>
         </h3>
         {volist name="newsThree" id="vo"}
         <div class="news  col-md-12 col-sm-4 col-xs-4">
             <img class="newsImg img-responsive col-md-6" src="{$vo.media_id}" alt="">
             <div class="word col-md-6">
-                <h4>
+                <h4 class="big-title">
                     <strong>{$vo.title}</strong>
                 </h4>
-                <p>{$vo.subtitle}</p>
-                <p>{$vo.create_time}</p>
+                <p class="small-title">{$vo.subtitle}</p>
+                <p class="date">{$vo.create_time}</p>
             </div>
         </div>
         {/volist}
     </div>
-<div class="col-md-3 word-news">
-    <h3 class="more">更多
-        <a>More</a>
-    </h3>
-    {volist name="events" id="vo"}
-        <p>{$vo.title}<br />{$vo.create_time}</p>
-    {/volist}
-</div>
+    <div class="col-md-3 word-news more-box">
+        <h3 class="more">更多
+            <a class="green">More</a>
+        </h3>
+        {volist name="events" id="vo"}
+        <p><span class="big-title">{$vo.title}</span><br/><span class="date">{$vo.create_time}</span></p>
+        {/volist}
+    </div>
 </div>
 
 <!-- 发展历程&营业执照 -->
@@ -60,7 +60,8 @@
     <!-- 发展历程 -->
     <div class="col-md-12  center-block history">
         <h4>清水宇治发展历程文字介绍</h4>
-        <p>清水宇治，全称清水宇治餐饮管理有限公司。公司成立于香港,并在中国广东省广州市注册分公司，是一家以抹茶专门店为基础，传播抹茶文化，促进国际文化交流，并帮助创业者实现自我的企业。 清水宇治餐饮管理有限公司目前已引入世界级管理人才及世界级设计团队,为所有实体店打造非一般的日式休闲环境。
+        <p>清水宇治，全称清水宇治餐饮管理有限公司。公司成立于香港,并在中国广东省广州市注册分公司，是一家以抹茶专门店为基础，传播抹茶文化，促进国际文化交流，并帮助创业者实现自我的企业。
+            清水宇治餐饮管理有限公司目前已引入世界级管理人才及世界级设计团队,为所有实体店打造非一般的日式休闲环境。
             同时，清水宇治的所有抹茶产品均采用直接从日本进口的百年历史抹茶山政小山园——一款真正意义上经过碾磨、蒸青的纯正抹茶。纯度高的抹茶，口感清新，入口回甘而余味无穷，微涩而不失细海苔香。我们用心制作每一款产品，不苟微丝，只为给消费者带来真真正正的抹茶口味体验。</p>
     </div>
     <!-- 营业执照轮播 -->
@@ -72,7 +73,7 @@
                     <ul id="mr_fu">
                         {volist name="desert" id="vo"}
                         <li>
-                            <img src="{$vo.media_id}" />
+                            <img src="{$vo.media_id}"/>
                         </li>
                         {/volist}
                     </ul>

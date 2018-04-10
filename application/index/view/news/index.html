@@ -1,26 +1,26 @@
 {include file="public/header"}
-<link rel="stylesheet" href="__STATIC__/index/css/news.css" type="text/css" media="all" />
+<link rel="stylesheet" href="__STATIC__/index/css/event.css" type="text/css" media="all" />
 {include file="public/nav"}
 
-    <!-- 资讯 -->
-    <div class=" col-md-12">
-        <div class="news-box">
-            {volist name="news" id="vo" key="key"}
-            <div class="news col-md-12" >
-                <div class="col-md-3">
-                    <img src="{$vo.media_id}" class="img-responsive" alt="新闻图片">
-                </div>
-                <div class="col-md-9">
-                    <p class="time">{$vo.create_time}</p>
-                    <h3 class="title">资讯{$key}：{$vo.title}</h3>
-                    <p class="summary">{$vo.subtitle}</p>
-                    <p class="link">
-                        <a href="__PATH__?s=index/news/detail&news_id={$vo.id}">了解详细</a>
-                    </p>
-                </div>
-            </div>
-            {/volist}
+
+<div class="body-box col-md-8">
+    {volist name="news" id="vo" key="key"}
+    <div class="news col-md-12" style="margin-top: 4%">
+        <div class="col-md-3">
+            <img src="{$vo.media_id}" class="img-responsive" alt="新闻图片">
+        </div>
+        <div class="col-md-7">
+            <p class="date">{$vo.create_time}</p>
+            <h3 class="title">活动{$key}：{$vo.title}</h3>
+            <p class="summary">{$vo.subtitle}</p>
+            <p class="summary">内容简介</p>
+            <p class="link">
+                <a href="__PATH__?s=index/event/detail&event_id={$vo.id}">了解详细</a>
+            </p>
         </div>
     </div>
+    {/volist}
+</div>
+{$news->render()}
 
 {include file="public/footer"}

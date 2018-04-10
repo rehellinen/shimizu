@@ -29,9 +29,9 @@
     border-bottom: #999999 solid 2px;
 }
 .title > p {
-    font-family: "SimHei";
-    font-size: 25px;
-    font-weight: bold;
+    font-family: "microsoft yahei";
+    font-size: 30px;
+    /* font-weight: bold; */
 }
 .right-box{
     margin-bottom: 50px;
@@ -40,7 +40,9 @@
     font-size: 20px;
     text-indent:2em;
     word-wrap:break-word; 
-    word-break:break-all; 
+    word-break:break-all;
+    font-size: 18px;
+    font-family: "SimSun"; 
     
 }
 .control-panel{

@@ -33,7 +33,7 @@
                 <a href="__PATH__?s=index/product/detail&id={$best.deserts_id.id}">
                 <div class="product col-md-6 col-sm-6">
                     <img class="img-responsive" src="{$best.deserts_id.media_id}" />
-                    <p>{$best.deserts_id.name}</p>
+                    <p style="color: black">{$best.deserts_id.name} <span class="green" style="margin-left: 3px;">{$best.deserts_id.japan_name}</span></p>
                 </div>
                 </a>
                 {/volist}
@@ -44,12 +44,14 @@
             <a href="__PATH__?s=index/product/detail&id={$all.id}">
             <div class="product col-md-4 col-sm-6">
                 <img class="img-responsive" src="{$all.media_id}" />
-                <p>{$all.name}</p>
-                <p>{$all.japan_name}</p>
+                <p style="color: black">{$all.name}</p>
+                <p class="green">{$all.japan_name}</p>
             </div>
             </a>
             {/volist}
-            {$allDesert->render()}
+            <div class="row">
+                {$allDesert->render()}
+            </div>
         </div>
 
 

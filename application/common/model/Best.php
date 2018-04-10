@@ -24,7 +24,7 @@ class Best extends Model
     public function getDesert()
     {
         $data['status'] = array('neq', -1);
-        return $this->where($data)->order('listorder desc, id desc')->select()->toArray();
+        return $this->where($data)->order('listorder desc, id desc')->paginate();
     }
 
     public function getIndexBest()

@@ -6,6 +6,8 @@
 
 .navbar-default .navbar-nav>li>a {
     color: #eeeeee;
+    font-family: "microsoft yahei";
+    font-size: 18px;
 }
 
 /* head */
@@ -98,6 +100,9 @@ footer {
     bottom: 0px;
     text-align: center;
 }
+.green {
+    color: #4c8237;
+}
 
 /* 超大屏幕时样式 >1024 */
 @media (min-width: 1024px) {
@@ -110,7 +115,10 @@ footer {
         width: 75%;
     }
    
-
+    .navbar-default .navbar-nav>li>a {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
  }
 
  /* 小屏幕样式 768>x>414*/
